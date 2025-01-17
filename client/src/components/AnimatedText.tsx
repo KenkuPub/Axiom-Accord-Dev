@@ -189,7 +189,7 @@ const AnimatedText = () => {
           animate={{ opacity: showTextAnimation ? 1 : 0 }}
           className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-1 w-full md:w-3/4"
         >
-          <div className="text-5xl md:text-6xl jersey-15-regular text-white">
+          <div className="text-6xl md:text-6xl jersey-15-regular text-white">
             <div className="text-center relative">
               {displayText}
               <span
@@ -197,7 +197,7 @@ const AnimatedText = () => {
                   showCursor ? "opacity-100" : "opacity-0"
                 }`}
                 style={{
-                  left: `${currentPosition * (window.innerWidth < 768 ? 0.81 : 1.62)}rem`,
+                  left: `${currentPosition * (window.innerWidth < 768 ? 1.6 : 1.62)}rem`,
                 }}
               >
                 |
