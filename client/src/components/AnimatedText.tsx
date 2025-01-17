@@ -54,7 +54,7 @@ const AnimatedSubheader = ({ showCursor, isTypingComplete }) => {
     <motion.div 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="absolute w-full flex justify-center text-3xl jersey-15-regular text-white/80"
+      className="absolute w-full flex justify-center text-xl md:text-3xl jersey-15-regular text-white/80"
       style={{ top: '100%' }}
     >
       <div className="text-center relative">
@@ -87,101 +87,80 @@ const AnimatedText = () => {
 
   const navigateToAuth = useCallback(() => {
     if (!isTypingComplete) return;
-
     setIsLogoZooming(true);
-
-    // Wait for zoom animation before navigating
     setTimeout(() => {
       setLocation("/auth");
-    }, 500); // Match this with the zoom duration
+    }, 500);
   }, [isTypingComplete, setLocation]);
 
-  const getRandomDelay = useCallback(() => {
-    return Math.random() * 150 + 50;
-  }, []);
+  useEffect(() => {
+    if (!showTextAnimation) return;
+    if (currentPosition < fullText.length) {
+      const delay = Math.random() * 150 + 50;
+      const typingTimeout = setTimeout(() => {
+        setDisplayText(fullText.slice(0, currentPosition + 1));
+        setCurrentPosition((prev) => prev + 1);
+      }, delay);
+      return () => clearTimeout(typingTimeout);
+    } else if (currentPosition === fullText.length) {
+      setIsTypingComplete(true);
+    }
+  }, [currentPosition, fullText, showTextAnimation]);
 
-  // Effect for logo animation
   useEffect(() => {
     const logoTimeout = setTimeout(() => {
       setLogoAnimationComplete(true);
     }, 3500);
-
     return () => clearTimeout(logoTimeout);
   }, []);
 
-  // Effect to start text animation after logo
   useEffect(() => {
     if (logoAnimationComplete) {
       const textStartTimeout = setTimeout(() => {
         setShowTextAnimation(true);
       }, 500);
-
       return () => clearTimeout(textStartTimeout);
     }
   }, [logoAnimationComplete]);
 
-  // Effect for typing animation
   useEffect(() => {
     if (!showTextAnimation) return;
-
-    if (currentPosition < fullText.length) {
-      const currentChar = fullText[currentPosition];
-      let delay = getRandomDelay();
-      if (currentChar === "\n" || currentChar === " ") {
-        delay += 50;
-      }
-      const typingTimeout = setTimeout(() => {
-        setDisplayText(fullText.slice(0, currentPosition + 1));
-        setCurrentPosition((prev) => prev + 1);
-      }, delay);
-
-      return () => clearTimeout(typingTimeout);
-    } else if (currentPosition === fullText.length) {
-      setIsTypingComplete(true);
-    }
-  }, [currentPosition, fullText, getRandomDelay, showTextAnimation]);
-
-  // Effect for cursor blinking
-  useEffect(() => {
-    if (!showTextAnimation) return;
-
     const cursorInterval = setInterval(() => {
       setShowCursor((prev) => !prev);
     }, 530);
-
     return () => clearInterval(cursorInterval);
   }, [showTextAnimation]);
 
-  // Effect for Enter key navigation
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
       if (e.key === "Enter" && isTypingComplete) {
         navigateToAuth();
       }
     };
-
     window.addEventListener("keypress", handleKeyPress);
     return () => window.removeEventListener("keypress", handleKeyPress);
   }, [isTypingComplete, navigateToAuth]);
 
   return (
-    <div className="absolute inset-0 flex items-center justify-center">
-      <div className="relative flex flex-col items-center justify-center min-h-[400px] w-full">
+    <div className="absolute inset-0 flex items-center justify-center p-4">
+      <div className="relative flex flex-col items-center justify-center min-h-[300px] md:min-h-[400px] w-full">
         <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
           <AnimatePresence>
             <motion.img
               ref={logoRef}
-              src="/assets/logo_01_lgtr.png"
+              src="/assets/logo_01_tr.png"
               alt="Axiom Accord Logo"
-              className="w-64 h-64 cursor-pointer"
+              className="w-32 h-32 md:w-64 md:h-64 cursor-pointer"
               onClick={navigateToAuth}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ 
                 opacity: 1, 
                 scale: isLogoZooming ? 5 : (logoAnimationComplete ? [1, 1.05, 1] : 1),
+                y: [0, -8, 0]
               }}
               whileHover={{
-                filter: "drop-shadow(0 0 50px rgba(255, 255, 255, 0.7))"
+                scale: 1.05,
+                filter: "drop-shadow(0 0 15px rgba(255, 255, 255, 0.7))"
               }}
               transition={{ 
                 opacity: { duration: 3, delay: 1 },
@@ -192,12 +171,15 @@ const AnimatedText = () => {
                   ease: "easeInOut",
                   repeatType: isLogoZooming ? "none" : "reverse"
                 },
-                filter: { duration: 1.0 }
+                y: {
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                  repeatType: "reverse"
+                },
+                filter: { duration: 0.3 }
               }}
-              style={{ 
-                filter: "drop-shadow(0 0 0px rgba(255, 255, 255, 0))",
-                zIndex: isLogoZooming ? 1000 : 10
-              }}
+              style={{ filter: "drop-shadow(0 0 0px rgba(255, 255, 255, 0))" }}
             />
           </AnimatePresence>
         </div>
@@ -207,24 +189,33 @@ const AnimatedText = () => {
           animate={{ opacity: showTextAnimation ? 1 : 0 }}
           className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-4 w-full md:w-3/4"
         >
-          <div className="text-6xl jersey-15-regular text-white">
-            <div className="text-center relative w-full">
+          <div className="text-3xl md:text-6xl jersey-15-regular text-white">
+            <div className="text-center relative">
               {displayText}
-              {currentPosition <= displayText.length && (
-                <span
-                  className={`absolute inline-block transition-opacity duration-100 top-[-3px] ${
-                    showCursor ? "opacity-100" : "opacity-0"
-                  }`}
-                  style={{
-                    left: `${currentPosition * 1.62}rem`,
-                  }}
-                >
-                  |
-                </span>
-              )}
+              <span
+                className={`absolute inline-block transition-opacity duration-100 ${
+                  showCursor ? "opacity-100" : "opacity-0"
+                }`}
+                style={{
+                  left: `${currentPosition * (window.innerWidth < 768 ? 0.81 : 1.62)}rem`,
+                }}
+              >
+                |
+              </span>
             </div>
           </div>
           <AnimatedSubheader showCursor={showCursor} isTypingComplete={isTypingComplete} />
+          {isTypingComplete && (
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 1.5 }}
+              className="text-lg md:text-2xl jersey-15-regular text-white/80 hover:text-white/100 transition-colors cursor-pointer mt-8 md:mt-16"
+              onClick={navigateToAuth}
+            >
+              Press Enter
+            </motion.p>
+          )}
         </motion.div>
       </div>
     </div>

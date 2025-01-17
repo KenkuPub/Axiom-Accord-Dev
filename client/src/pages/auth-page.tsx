@@ -39,7 +39,7 @@ export default function AuthPage() {
     <div className="min-h-screen w-full flex flex-col relative">
       <AnimatedBackground />
 
-      <div className="flex-grow flex flex-col items-center justify-center">
+      <div className="flex-grow flex flex-col items-center justify-center p-4">
         <motion.div
           style={{ display: 'flex', overflow: 'hidden' }}
           variants={container}
@@ -51,7 +51,7 @@ export default function AuthPage() {
             <motion.span
               key={index}
               variants={child}
-              className={`text-6xl jersey-15-regular text-white inline-block ${
+              className={`text-4xl md:text-6xl jersey-15-regular text-white inline-block ${
                 letter === " " ? "mr-4" : "mr-[0.1em]"
               } hover:text-primary hover:scale-110 transition-colors`}
             >
