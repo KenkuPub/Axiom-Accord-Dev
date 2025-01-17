@@ -150,7 +150,7 @@ const AnimatedText = () => {
               ref={logoRef}
               src="/assets/logo_01_tr.png"
               alt="Axiom Accord Logo"
-              className="w-64 h-64 md:w-84 md:h-84 cursor-pointer"
+              className="w-40 h-40 md:w-64 md:h-64 cursor-pointer"
               onClick={navigateToAuth}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ 
@@ -187,9 +187,9 @@ const AnimatedText = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: showTextAnimation ? 1 : 0 }}
-          className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-8 w-full md:w-3/4"
+          className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-1 w-full md:w-3/4"
         >
-          <div className="text-3xl md:text-6xl jersey-15-regular text-white">
+          <div className="text-5xl md:text-6xl jersey-15-regular text-white">
             <div className="text-center relative">
               {displayText}
               <span
