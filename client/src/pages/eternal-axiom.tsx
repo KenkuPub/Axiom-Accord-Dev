@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 import AnimatedBackground from "@/components/background/AnimatedBackground";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 import Footer from "@/components/ui/footer";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const volumes = [
   {
@@ -33,12 +31,11 @@ const volumes = [
 ];
 
 export default function EternalAxiom() {
-  const [activeVolume, setActiveVolume] = useState("0");
+  const [activeVolume, setActiveVolume] = useState(0);
 
   return (
     <div className="min-h-screen w-full flex flex-col relative">
       <AnimatedBackground />
-
       <div className="container mx-auto px-4 py-8 flex-grow">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -46,32 +43,70 @@ export default function EternalAxiom() {
           transition={{ duration: 0.5 }}
           className="bg-white/80 backdrop-blur-lg rounded-lg shadow-lg p-8"
         >
-          <h1 className="text-4xl jersey-15-regular mb-6">The Book of Eternal Axiom</h1>
+          <h1 className="text-4xl font-semibold text-center mb-8">The Book of Eternal Axiom</h1>
 
-          <Tabs value={activeVolume} onValueChange={setActiveVolume} orientation="vertical" className="flex gap-6">
-            <div className="flex-grow order-1">
-              {volumes.map((volume, index) => (
-                <TabsContent key={index} value={index.toString()}>
-                  <div className="prose prose-lg max-w-none">
-                    <h2 className="text-2xl jersey-15-regular mb-4">{volume.title}</h2>
-                    <p className="text-gray-700 leading-relaxed">{volume.content}</p>
-                  </div>
-                </TabsContent>
-              ))}
+          {/* Volume Quick Navigation */}
+          <div className="flex justify-center mb-12 gap-4">
+            {volumes.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setActiveVolume(index)}
+                className={`
+                  w-12 h-12 rounded-full flex items-center justify-center
+                  transition-all duration-300 text-lg font-medium
+                  ${activeVolume === index 
+                    ? 'bg-black/40 text-white ring-2 ring-white/50 ring-offset-2 ring-offset-transparent' 
+                    : 'bg-white/30 hover:bg-white/40'}
+                `}
+              >
+                {index + 1}
+              </button>
+            ))}
+          </div>
+
+          {/* Content Display */}
+          <motion.div
+            key={activeVolume}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3 }}
+            className="max-w-3xl mx-auto"
+          >
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-medium">{volumes[activeVolume].title}</h2>
             </div>
-            <TabsList className="flex flex-col h-[500px] bg-white/20 p-2 rounded-lg gap-2 min-w-[100px] order-2">
-              {volumes.map((_, index) => (
-                <TabsTrigger 
-                  key={index} 
-                  value={index.toString()} 
-                  className="w-full py-6 px-4 data-[state=active]:bg-white/40 text-lg"
-                  style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
-                >
-                  Volume {index + 1}
-                </TabsTrigger>
-              ))}
-            </TabsList>
-          </Tabs>
+            <p className="text-lg leading-relaxed text-gray-700 text-center">
+              {volumes[activeVolume].content}
+            </p>
+          </motion.div>
+
+          {/* Previous/Next Navigation */}
+          <div className="flex justify-between mt-12">
+            <button
+              onClick={() => setActiveVolume(prev => Math.max(0, prev - 1))}
+              disabled={activeVolume === 0}
+              className={`
+                px-4 py-2 rounded-lg transition-all duration-300
+                ${activeVolume === 0 
+                  ? 'opacity-50 cursor-not-allowed bg-white/20' 
+                  : 'bg-white/30 hover:bg-white/40'}
+              `}
+            >
+              Previous Volume
+            </button>
+            <button
+              onClick={() => setActiveVolume(prev => Math.min(volumes.length - 1, prev + 1))}
+              disabled={activeVolume === volumes.length - 1}
+              className={`
+                px-4 py-2 rounded-lg transition-all duration-300
+                ${activeVolume === volumes.length - 1 
+                  ? 'opacity-50 cursor-not-allowed bg-white/20' 
+                  : 'bg-white/30 hover:bg-white/40'}
+              `}
+            >
+              Next Volume
+            </button>
+          </div>
         </motion.div>
       </div>
       <Footer />
