@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useLocation } from "wouter";
 import messages from '../lib/messages.json';
 
@@ -55,7 +55,7 @@ const AnimatedSubheader = ({ showCursor, isTypingComplete }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       className="absolute w-full flex justify-center text-3xl jersey-15-regular text-white/80"
-      style={{ top: '100%' }} // Position below the title
+      style={{ top: '100%' }}
     >
       <div className="text-center relative">
         <div className="inline-block relative">
@@ -82,6 +82,19 @@ const AnimatedText = () => {
   const [isTypingComplete, setIsTypingComplete] = useState(false);
   const [logoAnimationComplete, setLogoAnimationComplete] = useState(false);
   const [showTextAnimation, setShowTextAnimation] = useState(false);
+  const [isLogoZooming, setIsLogoZooming] = useState(false);
+  const logoRef = useRef(null);
+
+  const navigateToAuth = useCallback(() => {
+    if (!isTypingComplete) return;
+
+    setIsLogoZooming(true);
+
+    // Wait for zoom animation before navigating
+    setTimeout(() => {
+      setLocation("/auth");
+    }, 500); // Match this with the zoom duration
+  }, [isTypingComplete, setLocation]);
 
   const getRandomDelay = useCallback(() => {
     return Math.random() * 150 + 50;
@@ -91,7 +104,7 @@ const AnimatedText = () => {
   useEffect(() => {
     const logoTimeout = setTimeout(() => {
       setLogoAnimationComplete(true);
-    }, 3500); // Adjust timing as needed for Title to animation to begin
+    }, 3500);
 
     return () => clearTimeout(logoTimeout);
   }, []);
@@ -101,7 +114,7 @@ const AnimatedText = () => {
     if (logoAnimationComplete) {
       const textStartTimeout = setTimeout(() => {
         setShowTextAnimation(true);
-      }, 500); // Delay before starting text animation
+      }, 500);
 
       return () => clearTimeout(textStartTimeout);
     }
@@ -143,13 +156,13 @@ const AnimatedText = () => {
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
       if (e.key === "Enter" && isTypingComplete) {
-        setLocation("/auth");
+        navigateToAuth();
       }
     };
 
     window.addEventListener("keypress", handleKeyPress);
     return () => window.removeEventListener("keypress", handleKeyPress);
-  }, [isTypingComplete, setLocation]);
+  }, [isTypingComplete, navigateToAuth]);
 
   return (
     <div className="absolute inset-0 flex items-center justify-center">
@@ -157,14 +170,15 @@ const AnimatedText = () => {
         <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
           <AnimatePresence>
             <motion.img
+              ref={logoRef}
               src="/assets/logo_01_lgtr.png"
               alt="Axiom Accord Logo"
               className="w-64 h-64 cursor-pointer"
-              onClick={() => setLocation("/auth")}
+              onClick={navigateToAuth}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ 
                 opacity: 1, 
-                scale: logoAnimationComplete ? [1, 1.05, 1] : 1,
+                scale: isLogoZooming ? 5 : (logoAnimationComplete ? [1, 1.05, 1] : 1),
               }}
               whileHover={{
                 filter: "drop-shadow(0 0 50px rgba(255, 255, 255, 0.7))"
@@ -172,15 +186,18 @@ const AnimatedText = () => {
               transition={{ 
                 opacity: { duration: 3, delay: 1 },
                 scale: { 
-                  duration: 4,
+                  duration: isLogoZooming ? 0.5 : 4,
                   delay: 0,
-                  repeat: Infinity,
+                  repeat: isLogoZooming ? 0 : Infinity,
                   ease: "easeInOut",
-                  repeatType: "reverse"
+                  repeatType: isLogoZooming ? "none" : "reverse"
                 },
                 filter: { duration: 1.0 }
               }}
-              style={{ filter: "drop-shadow(0 0 0px rgba(255, 255, 255, 0))" }}
+              style={{ 
+                filter: "drop-shadow(0 0 0px rgba(255, 255, 255, 0))",
+                zIndex: isLogoZooming ? 1000 : 10
+              }}
             />
           </AnimatePresence>
         </div>
