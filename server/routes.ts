@@ -2,7 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { setupAuth } from "./auth";
 import { db } from "@db";
-import { surveyResults, surveyResponseSchema, users, insertUserSchema, calculateSurveyScore } from "@db/schema";
+import { surveyResults, surveyDrafts, surveyResponseSchema, users, insertUserSchema, calculateSurveyScore } from "@db/schema";
 import { eq } from "drizzle-orm";
 import { scrypt, randomBytes } from "crypto";
 import { promisify } from "util";
@@ -22,6 +22,57 @@ export function registerRoutes(app: Express): Server {
 
   app.get('/api/health', (_req, res) => {
     res.json({ status: 'ok' });
+  });
+
+  // Get user's survey draft
+  app.get('/api/survey/draft', async (req, res) => {
+    if (!req.isAuthenticated()) {
+      return res.status(401).json({ message: 'Not authenticated' });
+    }
+
+    try {
+      const [draft] = await db
+        .select()
+        .from(surveyDrafts)
+        .where(eq(surveyDrafts.userId, req.user.id))
+        .orderBy(surveyDrafts.updatedAt, "desc")
+        .limit(1);
+
+      if (!draft) {
+        return res.status(404).json({ message: 'No draft found' });
+      }
+
+      res.json(draft.responses);
+    } catch (error) {
+      console.error('Error fetching survey draft:', error);
+      res.status(500).json({ message: 'Failed to fetch survey draft' });
+    }
+  });
+
+  // Save survey draft
+  app.post('/api/survey/draft', async (req, res) => {
+    if (!req.isAuthenticated()) {
+      return res.status(401).json({ message: 'Not authenticated' });
+    }
+
+    try {
+      // We don't validate the schema here since it's a draft
+      const [draft] = await db
+        .insert(surveyDrafts)
+        .values({
+          userId: req.user.id,
+          responses: req.body,
+        })
+        .returning();
+
+      res.json({
+        message: 'Draft saved successfully',
+        draft,
+      });
+    } catch (error) {
+      console.error('Error saving survey draft:', error);
+      res.status(500).json({ message: 'Failed to save draft' });
+    }
   });
 
   // Get user's survey results
@@ -77,6 +128,11 @@ export function registerRoutes(app: Express): Server {
           score,
         })
         .returning();
+
+      // Delete all drafts after successful submission
+      await db
+        .delete(surveyDrafts)
+        .where(eq(surveyDrafts.userId, req.user.id));
 
       res.json({ 
         message: 'Survey submitted successfully',

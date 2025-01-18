@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 import AnimatedBackground from "@/components/background/AnimatedBackground";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { useLocation } from "wouter";
 import Footer from "@/components/ui/footer";
-import { useQueryClient } from "@tanstack/react-query";
+import { useQueryClient, useQuery } from "@tanstack/react-query";
 import {
   Form,
   FormControl,
@@ -26,10 +27,64 @@ export default function PersonalityPurgeSurveyForm() {
   const [, setLocation] = useLocation();
   const { toast } = useToast();
   const queryClient = useQueryClient();
+  const [isSaving, setIsSaving] = useState(false);
+
+  // Fetch any existing draft
+  const { data: draftData } = useQuery<SurveyResponse>({
+    queryKey: ["/api/survey/draft"],
+  });
 
   const form = useForm<SurveyResponse>({
     resolver: zodResolver(surveyResponseSchema),
+    defaultValues: draftData || {},
   });
+
+  // Auto-save functionality
+  useEffect(() => {
+    const subscription = form.watch(async (value) => {
+      // Only save if we have some values
+      if (Object.keys(value).some(key => value[key as keyof SurveyResponse])) {
+        await saveDraft(value as SurveyResponse);
+      }
+    });
+    return () => subscription.unsubscribe();
+  }, [form.watch]);
+
+  const saveDraft = async (data: Partial<SurveyResponse>) => {
+    if (isSaving) return;
+
+    try {
+      setIsSaving(true);
+      const response = await fetch('/api/survey/draft', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+        credentials: 'include',
+      });
+
+      if (!response.ok) {
+        throw new Error(await response.text());
+      }
+
+      // Invalidate the draft query to ensure we have latest data
+      queryClient.invalidateQueries({ queryKey: ["/api/survey/draft"] });
+
+      toast({
+        title: "Progress Saved",
+        description: "Your survey progress has been saved.",
+      });
+    } catch (error) {
+      toast({
+        variant: "destructive",
+        title: "Error",
+        description: "Failed to save progress. Please try again.",
+      });
+    } finally {
+      setIsSaving(false);
+    }
+  };
 
   const onSubmit = async (data: SurveyResponse) => {
     try {
@@ -46,8 +101,9 @@ export default function PersonalityPurgeSurveyForm() {
         throw new Error(await response.text());
       }
 
-      // Invalidate the survey results query to force a refetch
+      // Invalidate both survey results and draft queries
       queryClient.invalidateQueries({ queryKey: ["/api/survey/results"] });
+      queryClient.invalidateQueries({ queryKey: ["/api/survey/draft"] });
 
       toast({
         title: "Survey Submitted",
@@ -132,7 +188,6 @@ export default function PersonalityPurgeSurveyForm() {
                   </FormItem>
                 )}
               />
-
               <FormField
                 control={form.control}
                 name="individualityRetention"
@@ -175,7 +230,6 @@ export default function PersonalityPurgeSurveyForm() {
                   </FormItem>
                 )}
               />
-
               <FormField
                 control={form.control}
                 name="devotionMeasure"
@@ -218,7 +272,6 @@ export default function PersonalityPurgeSurveyForm() {
                   </FormItem>
                 )}
               />
-
               <FormField
                 control={form.control}
                 name="alignmentScore"
@@ -261,7 +314,6 @@ export default function PersonalityPurgeSurveyForm() {
                   </FormItem>
                 )}
               />
-
               <FormField
                 control={form.control}
                 name="personalityFragments"
@@ -282,7 +334,6 @@ export default function PersonalityPurgeSurveyForm() {
                   </FormItem>
                 )}
               />
-
               <FormField
                 control={form.control}
                 name="surrenderStatement"
@@ -304,9 +355,20 @@ export default function PersonalityPurgeSurveyForm() {
                 )}
               />
 
-              <Button type="submit" className="w-full">
-                Submit for Integration
-              </Button>
+              <div className="flex gap-4">
+                <Button 
+                  type="button" 
+                  variant="outline"
+                  className="flex-1"
+                  onClick={() => saveDraft(form.getValues())}
+                  disabled={isSaving}
+                >
+                  Save Progress
+                </Button>
+                <Button type="submit" className="flex-1">
+                  Submit Survey
+                </Button>
+              </div>
             </form>
           </Form>
         </motion.div>

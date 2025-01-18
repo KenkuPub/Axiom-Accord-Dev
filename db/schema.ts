@@ -18,8 +18,17 @@ export const surveyResults = pgTable("survey_results", {
   submittedAt: timestamp("submitted_at").defaultNow(),
 });
 
+// New table for draft survey responses
+export const surveyDrafts = pgTable("survey_drafts", {
+  id: serial("id").primaryKey(),
+  userId: integer("user_id").notNull().references(() => users.id),
+  responses: json("responses").notNull(),
+  updatedAt: timestamp("updated_at").defaultNow(),
+});
+
 export const usersRelations = relations(users, ({ many }) => ({
   surveyResults: many(surveyResults),
+  surveyDrafts: many(surveyDrafts),
 }));
 
 export const surveyResultsRelations = relations(surveyResults, ({ one }) => ({
@@ -29,7 +38,13 @@ export const surveyResultsRelations = relations(surveyResults, ({ one }) => ({
   }),
 }));
 
-// Update insertUserSchema to include password field
+export const surveyDraftsRelations = relations(surveyDrafts, ({ one }) => ({
+  user: one(users, {
+    fields: [surveyDrafts.userId],
+    references: [users.id],
+  }),
+}));
+
 export const insertUserSchema = z.object({
   username: z.string().min(1, "Username is required"),
   email: z.string().email("Invalid email address"),
