@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import AnimatedBackground from "@/components/background/AnimatedBackground";
 import BackToDashboard from "@/components/ui/BackToDashboard";
 import Footer from "@/components/ui/footer";
+import { Button } from "@/components/ui/button";
 
 export default function PersonalityPurgeSurvey() {
   return (
@@ -75,7 +76,7 @@ export default function PersonalityPurgeSurvey() {
           <Button 
             type="submit" 
             className="w-full mt-8"
-            onClick={() => {}} //Removed setLocation, as per instructions not to add new changes beyond provided code
+            onClick={() => {}} 
           >
             Begin Purge
           </Button>
