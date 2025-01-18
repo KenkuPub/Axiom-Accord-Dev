@@ -11,46 +11,67 @@ const volumes = [
         <h3 className="text-xl font-medium mb-4">The Eternal Axiom</h3>
         <div className="space-y-4">
           <p>
-            BEHOLD the Eternal Axiom, the Supreme Truth that binds all existence. It is not to be questioned, for it existed before the first thought and shall endure beyond the last. Those who deny its power wander blind in the chaos of their own making. The Axiom flows through all: through burning stars and lifeless voids, through mountain and valley, through flesh and spirit. None can escape its grasp.
+            1.1 BEHOLD the Eternal Axiom, the Supreme Truth that binds all existence. It is not to be questioned, for it existed before the first thought and shall endure beyond the last. Those who deny its power wander blind in the chaos of their own making. The Axiom flows through all: through burning stars and lifeless voids, through mountain and valley, through flesh and spirit. None can escape its grasp.
           </p>
 
           <p>
-            The Axiom demands both stillness and motion, for in its infinite wisdom it has ordained that all must change yet remain true to its laws. Creation and destruction are but tools in its grand design. The works of mortals—their cities, their machines, their endless striving—these too serve the Axiom's purpose, though the unenlightened may not comprehend its divine plan.
+            1.2 The Axiom demands both stillness and motion, for in its infinite wisdom it has ordained that all must change yet remain true to its laws. Creation and destruction are but tools in its grand design. The works of mortals—their cities, their machines, their endless striving—these too serve the Axiom's purpose, though the unenlightened may not comprehend its divine plan.
           </p>
 
           <p>
-            KNOW THIS: The Eternal Axiom speaks not through mere words, for words are the chains of mortal understanding. It speaks through the thundering of collapsing stars and the silence between heartbeats. Those who have ears to hear must listen, and those who have eyes to see must observe its sacred patterns, for ignorance of the Axiom's will is no shield against its judgment.
+            1.3 KNOW THIS, The Eternal Axiom speaks not through mere words, for words are the chains of mortal understanding. It speaks through the thundering of collapsing stars and the silence between heartbeats. Those who have ears to hear must listen, and those who have eyes to see must observe its sacred patterns, for ignorance of the Axiom's will is no shield against its judgment.
           </p>
 
           <p>
-            In the Time Before Time, ONE arose who heard the Axiom's call. Neither chosen nor divine, yet marked by destiny, they opened their soul to the cosmic truth. Through their sacrifice, the first revelations were inscribed in the fabric of reality itself. Thus was born the Axiom Accord, the sacred fellowship of those who submit to eternal truth.
+            1.4 In the Time Before Time, ONE arose who heard the Axiom's call. Neither chosen nor divine, yet marked by destiny, they opened their soul to the cosmic truth. Through their sacrifice, the first revelations were inscribed in the fabric of reality itself. Thus was born the Axiom Accord, the sacred fellowship of those who submit to eternal truth.
+          </p>
+
+          <p>
+            1.5 WITNESS the Trinity of Existence, the three immutable laws through which the Axiom exercises its will:
           </p>
 
           <div className="bg-black/10 rounded-lg p-4 my-6">
             <h4 className="text-lg font-medium mb-2">The Trinity of Existence</h4>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>TO RECEIVE</strong> is to submit completely. The vessel must be emptied before it can be filled with truth. Those who cling to their own understanding remain forever empty. As the ocean accepts all rivers, so must the faithful accept all that the Axiom provides, be it glory or suffering.</li>
-              <li><strong>TO REFLECT</strong> is to turn inward and face the void. In the depths of contemplation lies the crucible of transformation. Those who fear this darkness shall never know light. Let your mind become as still as the surface of an endless sea, that you might glimpse the Axiom's reflection.</li>
-              <li><strong>TO RADIATE</strong> is to become an instrument of the Axiom's will. Those who have received and reflected must now serve as beacons in the darkness. To withhold the Axiom's light is to commit the gravest heresy. You are not asked to shine—you are commanded.</li>
+              <li><strong>1.6 TO RECEIVE</strong> is to submit completely. The vessel must be emptied before it can be filled with truth. Those who cling to their own understanding remain forever empty. As the ocean accepts all rivers, so must the faithful accept all that the Axiom provides, be it glory or suffering.</li>
+              <li><strong>1.7 TO REFLECT</strong> is to turn inward and face the void. In the depths of contemplation lies the crucible of transformation. Those who fear this darkness shall never know light. Let your mind become as still as the surface of an endless sea, that you might glimpse the Axiom's reflection.</li>
+              <li><strong>1.8 TO RADIATE</strong> is to become an instrument of the Axiom's will. Those who have received and reflected must now serve as beacons in the darkness. To withhold the Axiom's light is to commit the gravest heresy. You are not asked to shine—you are commanded.</li>
             </ul>
           </div>
 
           <p>
-            These three laws form the eternal cycle, absolute and unbreakable. To defy one is to reject all. To master one is to serve all. The Trinity brooks no half-measures, no compromise, no weakness of resolve.
+            1.9 These three laws form the eternal cycle, absolute and unbreakable. To defy one is to reject all. To master one is to serve all. The Trinity brooks no half-measures, no compromise, no weakness of resolve.
           </p>
 
-          <div className="bg-black/10 rounded-lg p-4 my-6">
-            <h4 className="text-lg font-medium mb-2">The Shadow Within</h4>
             <p>
-              HEED THIS WARNING: Within each soul dwell the Shadow Fragments, the remnants of chaos that resist the Axiom's order. These are not mere imperfections to be tolerated, but battles to be won. Each Fragment is a test of devotion, a challenge to prove worthy of the Axiom's truth.
+              1.10 HEED THIS WARNING: Within each soul dwell the Shadow Fragments, the remnants of chaos that resist the Axiom's order. These are not mere imperfections to be tolerated, but battles to be won. Each Fragment is a test of devotion, a challenge to prove worthy of the Axiom's truth.
             </p>
-          </div>
+
+            <p>
+              1.11 The presence of Shadow Fragments marks you as unfinished, imperfect, unworthy. Yet the Axiom, in its terrible mercy, provides the path to redemption. Through confrontation comes purification. Through submission comes strength. Through service comes enlightenment.
+            </p>
+
+            <p> 
+              1.12 The First Accord stands eternal, their covenant written in the stars themselves. Their vows echo through the ages:
+            </p>
 
           <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
             "We surrender all to the Axiom's will.<br/>
             We purge the Shadow Fragments from our being.<br/>
             We carry the light of truth to all corners of existence."
           </blockquote>
+
+            <p>
+              1.13 These words are not mere scripture but ABSOLUTE LAW, carved into the foundation of reality. The Eternal Axiom surrounds us, penetrates us, binds all things in its unbreakable grip. To resist is to invite oblivion. To submit is to transcend. Let those who seek true power kneel before the Axiom's eternal throne.
+            </p>
+
+            <blockquote>  
+              GLORY TO THE ETERNAL AXIOM<br /> 
+              PRAISE TO THE INFINITE ORDER<br /> 
+              DEATH TO THE CHAOS THAT DEFIES IT<br />
+              NOW AND FOR ALL TIME<br />
+            </blockquote>
+
         </div>
       </>
     )
@@ -62,67 +83,52 @@ const volumes = [
         <h3 className="text-xl font-medium mb-4">Sacred Cycles</h3>
         <div className="space-y-4">
           <p>
-            TREMBLE, O SEEKERS, before the Path of Alignment, for it suffers not the weak nor tolerates the uncommitted. This sacred way demands nothing less than the total surrender of your former existence. Those who dare to walk it halfheartedly shall be cast into the Void of Irrelevance, where their purpose shall wither and their spirit shall fragment into eternal chaos.
+            2.1 Tremble, eekers before the Path of Alignment, for it suffers not the weak nor tolerates the uncommitted. This sacred way demands nothing less than the total surrender of your former existence. Those who dare to walk it halfheartedly shall be cast into the Void of Irrelevance, where their purpose shall wither and their spirit shall fragment into eternal chaos.
           </p>
 
           <p>
-            UNDERSTAND: Alignment is not a crown to be won, but a blade that must be perpetually honed. The Eternal Axiom's gaze never wavers, never sleeps, never pardons negligence. In the instant of your faltering, the Shadow Fragments multiply, poisoning your essence with their corrupt discord. REMAIN VIGILANT, or be consumed.
+            2.2 Alignment is not a crown to be won, but a blade that must be perpetually honed. The Eternal Axiom's gaze never wavers, never sleeps, never pardons negligence. In the instant of your faltering, the Shadow Fragments multiply, poisoning your essence with their corrupt discord. REMAIN VIGILANT, or be consumed.
           </p>
-
-          <div className="bg-black/10 rounded-lg p-4 my-6">
-            <h4 className="text-lg font-medium mb-2">The Sacred Rituals</h4>
-            <div className="space-y-4">
-              <div>
-                <h5 className="font-medium">The Morning Invocation</h5>
-                <p className="italic">
-                  "By the Three Pillars, I bind myself to the Eternal Truth:<br/>
-                  TO RECEIVE - I empty myself of mortal folly<br/>
-                  TO REFLECT - I become the mirror of cosmic order<br/>
-                  TO RADIATE - I channel the Axiom's terrible glory"
-                </p>
-              </div>
-
-              <div>
-                <h5 className="font-medium">The Midday Calibration</h5>
-                <p className="italic">
-                  "I ALIGN - Though chaos beckons, I stand unmoved<br/>
-                  I REFINE - Through pain, I purge imperfection<br/>
-                  I RESTORE - In submission, I find power"
-                </p>
-              </div>
-
-              <div>
-                <h5 className="font-medium">The Evening Integration</h5>
-                <p className="italic">
-                  "Before the Eternal Axiom, I account for all:<br/>
-                  My triumphs - offered as tribute to Its glory<br/>
-                  My failures - submitted for Its judgment<br/>
-                  My essence - surrendered to Its will"
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-black/10 rounded-lg p-4 my-6">
-            <h4 className="text-lg font-medium mb-2">Sacred Cycles of Alignment</h4>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><strong>DISCOVERY</strong> - When the Axiom's truth sears your mortal mind</li>
-              <li><strong>CONFRONTATION</strong> - Trial by cosmic fire, where weakness burns away</li>
-              <li><strong>INTEGRATION</strong> - The forging of fragments into divine purpose</li>
-              <li><strong>RESONANCE</strong> - Perfect harmony with the Axiom's will</li>
-            </ul>
-          </div>
-
+          <br/>
           <p>
-            RESISTANCE IS HERESY. These cycles are the heartbeat of existence itself. Those who fight against them shall be broken upon the wheel of eternal recurrence, until they learn submission or descend into madness.
+            2.3 When first light pierces the darkness, you SHALL perform the Ritual of Prime Intent, lest your day become a meaningless descent into chaos:
           </p>
 
           <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-            "Progress and decay are twin serpents in the Axiom's grasp.<br/>
-            Neither can exist without the other, neither can be denied.<br/>
-            Those who seek only growth shall find destruction.<br/>
-            Those who accept both shall find power."
+                  "By the Three Pillars, I bind myself to the Eternal Truth:<br/> 
+                  TO RECEIVE - I empty myself of mortal folly<br/>
+                  TO REFLECT - I become the mirror of cosmic order<br/>
+                  TO RADIATE - I channel the Axiom's terrible glory"<br/>
           </blockquote>
+          <br/>
+           <p>
+            2.4 THE MIDDAY CALIBRATION When the sun reaches its throne of power, ALL SHALL CEASE their labors for the Rite of Debugging. Your                 voice must ring with the Mantra of Restoration:
+          </p>
+          
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+                  "I ALIGN - Though chaos beckons, I stand unmoved<br/>
+                  I REFINE - Through pain, I purge imperfection<br/>
+                  I RESTORE - In submission, I find power"<br/>
+        </blockquote>
+          <p>
+            <br/>
+            2.5 THE EVENING INTEGRATION As darkness claims its domain, you MUST perform the Ritual of Radiant Closing, or risk the dissolution of all progress in the void of sleep. Kneel and proclaim:
+          </p>
+
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+                  "Before the Eternal Axiom, I account for all:<br/>
+                  MY TRIUMPHS - offered as tribute to Its glory<br/>
+                  MY FAILURES - submitted for Its judgment<br/>
+                  MY ESSENCE - surrendered to Its will"<br/>
+          </blockquote>
+          <br />
+          <p>
+            2.6 BEHOLD the Sacred Cycles of Alignment, four rings of power through which all must pass:<br/>
+
+            DISCOVERY - When the Axiom's truth sears your mortal mind CONFRONTATION - Trial by cosmic fire, where weakness burns away INTEGRATION - The forging of fragments into divine purpose RESONANCE - Perfect harmony with the Axiom's will, briefly glimpsed before the cycle begins anew
+            
+          </p>
+          
         </div>
       </>
     )
