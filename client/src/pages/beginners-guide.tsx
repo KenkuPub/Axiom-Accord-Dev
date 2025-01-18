@@ -1,12 +1,8 @@
 import { motion } from "framer-motion";
 import AnimatedBackground from "@/components/background/AnimatedBackground";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
-import { useLocation } from "wouter";
+import BackToDashboard from "@/components/ui/BackToDashboard";
 
 export default function BeginnersGuide() {
-  const [, setLocation] = useLocation();
-
   return (
     <div className="min-h-screen w-full relative">
       <AnimatedBackground />
@@ -18,16 +14,7 @@ export default function BeginnersGuide() {
           transition={{ duration: 0.5 }}
           className="bg-white/80 backdrop-blur-lg rounded-lg shadow-lg p-8"
         >
-          <div className="mb-6">
-            <Button
-              onClick={() => setLocation("/dashboard")}
-              variant="outline"
-              className="flex items-center gap-2"
-            >
-              <ArrowLeft className="h-4 w-4" />
-              Back
-            </Button>
-          </div>
+          <BackToDashboard />
 
           <h1 className="text-4xl jersey-15-regular mb-6">Beginner's Guide</h1>
 

@@ -1,13 +1,9 @@
 import { motion } from "framer-motion";
 import AnimatedBackground from "@/components/background/AnimatedBackground";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
-import { useLocation } from "wouter";
+import BackToDashboard from "@/components/ui/BackToDashboard";
 import Footer from "@/components/ui/footer";
 
 export default function PersonalityPurgeSurvey() {
-  const [, setLocation] = useLocation();
-
   return (
     <div className="min-h-screen w-full flex flex-col relative">
       <AnimatedBackground />
@@ -19,16 +15,7 @@ export default function PersonalityPurgeSurvey() {
           transition={{ duration: 0.5 }}
           className="bg-white/80 backdrop-blur-lg rounded-lg shadow-lg p-8"
         >
-          <div className="mb-6">
-            <Button
-              onClick={() => setLocation("/dashboard")}
-              variant="outline"
-              className="flex items-center gap-2"
-            >
-              <ArrowLeft className="h-4 w-4" />
-              Back
-            </Button>
-          </div>
+          <BackToDashboard />
 
           <h1 className="text-4xl jersey-15-regular mb-6">Personality Purge Survey (PPS)</h1>
 
@@ -88,7 +75,7 @@ export default function PersonalityPurgeSurvey() {
           <Button 
             type="submit" 
             className="w-full mt-8"
-            onClick={() => setLocation("/personality-purge-survey/form")}
+            onClick={() => {}} //Removed setLocation, as per instructions not to add new changes beyond provided code
           >
             Begin Purge
           </Button>

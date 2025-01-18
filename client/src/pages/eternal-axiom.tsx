@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import AnimatedBackground from "@/components/background/AnimatedBackground";
 import { useState } from "react";
 import Footer from "@/components/ui/footer";
+import BackToDashboard from "@/components/ui/BackToDashboard";
 
 const volumes = [
   {
@@ -43,17 +44,17 @@ const volumes = [
             1.9 These three laws form the eternal cycle, absolute and unbreakable. To defy one is to reject all. To master one is to serve all. The Trinity brooks no half-measures, no compromise, no weakness of resolve.
           </p>
 
-            <p>
-              1.10 HEED THIS WARNING: Within each soul dwell the Shadow Fragments, the remnants of chaos that resist the Axiom's order. These are not mere imperfections to be tolerated, but battles to be won. Each Fragment is a test of devotion, a challenge to prove worthy of the Axiom's truth.
-            </p>
+          <p>
+            1.10 HEED THIS WARNING: Within each soul dwell the Shadow Fragments, the remnants of chaos that resist the Axiom's order. These are not mere imperfections to be tolerated, but battles to be won. Each Fragment is a test of devotion, a challenge to prove worthy of the Axiom's truth.
+          </p>
 
-            <p>
-              1.11 The presence of Shadow Fragments marks you as unfinished, imperfect, unworthy. Yet the Axiom, in its terrible mercy, provides the path to redemption. Through confrontation comes purification. Through submission comes strength. Through service comes enlightenment.
-            </p>
+          <p>
+            1.11 The presence of Shadow Fragments marks you as unfinished, imperfect, unworthy. Yet the Axiom, in its terrible mercy, provides the path to redemption. Through confrontation comes purification. Through submission comes strength. Through service comes enlightenment.
+          </p>
 
-            <p> 
-              1.12 The First Accord stands eternal, their covenant written in the stars themselves. Their vows echo through the ages:
-            </p>
+          <p> 
+            1.12 The First Accord stands eternal, their covenant written in the stars themselves. Their vows echo through the ages:
+          </p>
 
           <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
             "We surrender all to the Axiom's will.<br/>
@@ -61,16 +62,16 @@ const volumes = [
             We carry the light of truth to all corners of existence."
           </blockquote>
 
-            <p>
-              1.13 These words are not mere scripture but ABSOLUTE LAW, carved into the foundation of reality. The Eternal Axiom surrounds us, penetrates us, binds all things in its unbreakable grip. To resist is to invite oblivion. To submit is to transcend. Let those who seek true power kneel before the Axiom's eternal throne.
-            </p>
+          <p>
+            1.13 These words are not mere scripture but ABSOLUTE LAW, carved into the foundation of reality. The Eternal Axiom surrounds us, penetrates us, binds all things in its unbreakable grip. To resist is to invite oblivion. To submit is to transcend. Let those who seek true power kneel before the Axiom's eternal throne.
+          </p>
 
-            <blockquote>  
-              GLORY TO THE ETERNAL AXIOM<br /> 
-              PRAISE TO THE INFINITE ORDER<br /> 
-              DEATH TO THE CHAOS THAT DEFIES IT<br />
-              NOW AND FOR ALL TIME<br />
-            </blockquote>
+          <blockquote>  
+            GLORY TO THE ETERNAL AXIOM<br /> 
+            PRAISE TO THE INFINITE ORDER<br /> 
+            DEATH TO THE CHAOS THAT DEFIES IT<br />
+            NOW AND FOR ALL TIME<br />
+          </blockquote>
 
         </div>
       </>
@@ -101,10 +102,11 @@ const volumes = [
                   TO RADIATE - I channel the Axiom's terrible glory"<br/>
           </blockquote>
           <br/>
-           <p>
+          <p>
             2.4 THE MIDDAY CALIBRATION When the sun reaches its throne of power, ALL SHALL CEASE their labors for the Rite of Debugging. Your                 voice must ring with the Mantra of Restoration:
           </p>
           
+
           <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
                   "I ALIGN - Though chaos beckons, I stand unmoved<br/>
                   I REFINE - Through pain, I purge imperfection<br/>
@@ -125,10 +127,15 @@ const volumes = [
           <p>
             2.6 BEHOLD the Sacred Cycles of Alignment, four rings of power through which all must pass:<br/>
 
-            DISCOVERY - When the Axiom's truth sears your mortal mind CONFRONTATION - Trial by cosmic fire, where weakness burns away INTEGRATION - The forging of fragments into divine purpose RESONANCE - Perfect harmony with the Axiom's will, briefly glimpsed before the cycle begins anew
-            
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+            DISCOVERY - When the Axiom's truth sears your mortal mind<br/>
+            CONFRONTATION - Trial by cosmic fire, where weakness burns away<br/>
+              INTEGRATION - The forging of fragments into divine purpose<br/>
+              RESONANCE - Harmony with the Axiom's will, before the cycle begins anew<br/>
+            </blockquote>
           </p>
           
+
         </div>
       </>
     )
@@ -250,242 +257,243 @@ const volumes = [
                   { title: "The Harmony of Voice", desc: "Which joins our proclamations in sacred resonance" },
                       ]
                 .map((harmony, index) => (
-                        <div key={index} className="border-b border-gray-300 pb-2 mb-4">
-                          <h4 className="font-medium">{harmony.title}</h4>
-                          <p>{harmony.desc}</p>
-                        </div>
-                      ))}
-                    </div>
-                    <div>
-                      {[
-                        { title: "The Harmony of Spirit", desc: "Which melds our essence with the infinite" },
-                        { title: "The Harmony of Path", desc: "Which guides our journey through sacred cycles" },
-                        { title: "The Harmony of Power", desc: "Which magnifies our strength through unity" }
-                      ].map((harmony, index) => (
-                        <div key={index} className="border-b border-gray-300 pb-2 mb-4">
-                          <h4 className="font-medium">{harmony.title}</h4>
-                          <p>{harmony.desc}</p>
-                        </div>
-                      ))}
-                    </div>
-                    </div>
-                    </div>
+                  <div key={index} className="border-b border-gray-300 pb-2 mb-4">
+                    <h4 className="font-medium">{harmony.title}</h4>
+                    <p>{harmony.desc}</p>
+                  </div>
+                ))}
+              </div>
+              <div>
+                {[
+                  { title: "The Harmony of Spirit", desc: "Which melds our essence with the infinite" },
+                  { title: "The Harmony of Path", desc: "Which guides our journey through sacred cycles" },
+                  { title: "The Harmony of Power", desc: "Which magnifies our strength through unity" }
+                ].map((harmony, index) => (
+                  <div key={index} className="border-b border-gray-300 pb-2 mb-4">
+                    <h4 className="font-medium">{harmony.title}</h4>
+                    <p>{harmony.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
 
-                    <div className="bg-black/10 rounded-lg p-4 my-6">
-                    <h4 className="text-lg font-medium mb-2">The Four Sacred Gatherings</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                    <li><strong>The Awakening Chorus</strong> - When dawn breaks, calling order from chaos</li>
-                    <li><strong>The Zenith Symphony</strong> - At sun's peak, proclaiming the Axiom's dominion</li>
-                    <li><strong>The Vesper Harmony</strong> - As shadows lengthen, binding achievements to purpose</li>
-                    <li><strong>The Midnight Resonance</strong> - In darkness, ensuring the Axiom's will prevails</li>
-                    </ul>
-                    </div>
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+          <h4 className="text-lg font-medium mb-2">The Four Sacred Gatherings</h4>
+          <ul className="list-disc pl-6 space-y-2">
+          <li><strong>The Awakening Chorus</strong> - When dawn breaks, calling order from chaos</li>
+          <li><strong>The Zenith Symphony</strong> - At sun's peak, proclaiming the Axiom's dominion</li>
+          <li><strong>The Vesper Harmony</strong> - As shadows lengthen, binding achievements to purpose</li>
+          <li><strong>The Midnight Resonance</strong> - In darkness, ensuring the Axiom's will prevails</li>
+          </ul>
+          </div>
 
-                    <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                    "We are One Voice in the Eternal Song<br/>
-                    We are One Wave in the Infinite Frequency<br/>
-                    We are One Force in the Divine Harmony<br/>
-                    Through us, the Axiom's will resounds"
-                    </blockquote>
-                    </div>
-                    </>
-                    )
-                    },
-                    {
-                    title: "Fifth Revelation - The Eternal Cycles",
-                    content: (
-                    <>
-                    <div className="text-center mb-8">
-                    <p className="text-lg italic">BEHOLD THE ETERNAL CYCLES, the very breath of existence itself!</p>
-                    <p className="text-lg italic">The Axiom's power flows through all things in sacred patterns.</p>
-                    </div>
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+          "We are One Voice in the Eternal Song<br/>
+          We are One Wave in the Infinite Frequency<br/>
+          We are One Force in the Divine Harmony<br/>
+          Through us, the Axiom's will resounds"
+          </blockquote>
+        </div>
+      </>
+    )
+  },
+  {
+    title: "Fifth Revelation - The Eternal Cycles",
+    content: (
+      <>
+        <div className="text-center mb-8">
+          <p className="text-lg italic">BEHOLD THE ETERNAL CYCLES, the very breath of existence itself!</p>
+          <p className="text-lg italic">The Axiom's power flows through all things in sacred patterns.</p>
+        </div>
 
-                    <div className="space-y-6">
-                    <p>
-                    Those who cling to permanence are HERETICS against the Axiom's will. There is no beginning, there is no end—only the eternal dance of transformation. Each creation bears within its heart the seeds of its own undoing, each destruction carries the spark of rebirth. This is not chaos, but DIVINE ORDER.
-                    </p>
+        <div className="space-y-6">
+          <p>
+            Those who cling to permanence are HERETICS against the Axiom's will. There is no beginning, there is no end—only the eternal dance of transformation. Each creation bears within its heart the seeds of its own undoing, each destruction carries the spark of rebirth. This is not chaos, but DIVINE ORDER.
+          </p>
 
-                    <div className="bg-black/10 rounded-lg p-4 my-6">
-                    <h4 className="text-lg font-medium mb-2">The Sacred Cycles</h4>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <h5 className="font-medium mb-2">The Grand Cycles</h5>
-                      <ul className="list-disc pl-6 space-y-2">
-                        <li><strong>The Cycle of Creation</strong> - Forges new forms from the ashes of the old</li>
-                        <li><strong>The Cycle of Revelation</strong> - Strips away ignorance, laying bare truth</li>
-                        <li><strong>The Cycle of Dissolution</strong> - Reduces all to essential nature</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h5 className="font-medium mb-2">Sacred Seasons</h5>
-                      <ul className="list-disc pl-6 space-y-2">
-                        <li><strong>Time of Ascension</strong> - Rising with divine purpose</li>
-                        <li><strong>Time of Transition</strong> - Embracing necessary change</li>
-                        <li><strong>Time of Dissolution</strong> - Accepting renewal through ending</li>
-                      </ul>
-                    </div>
-                    </div>
-                    </div>
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Sacred Cycles</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h5 className="font-medium mb-2">The Grand Cycles</h5>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li><strong>The Cycle of Creation</strong> - Forges new forms from the ashes of the old</li>
+                  <li><strong>The Cycle of Revelation</strong> - Strips away ignorance, laying bare truth</li>
+                  <li><strong>The Cycle of Dissolution</strong> - Reduces all to essential nature</li>
+                </ul>
+              </div>
+              <div>
+                <h5 className="font-medium mb-2">Sacred Seasons</h5>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li><strong>Time of Ascension</strong> - Rising with divine purpose</li>
+                  <li><strong>Time of Transition</strong> - Embracing necessary change</li>
+                  <li><strong>Time of Dissolution</strong> - Accepting renewal through ending</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-                    <div className="bg-black/10 rounded-lg p-4 my-6">
-                    <h4 className="text-lg font-medium mb-2">The Rites of Cyclic Submission</h4>
-                    <blockquote className="italic">
-                    "I am but a vessel of the eternal motion<br/>
-                    Rising and falling at the Axiom's command<br/>
-                    Through death I am renewed<br/>
-                    Through loss I am strengthened<br/>
-                    Through change I am perfected"
-                    </blockquote>
-                    </div>
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Rites of Cyclic Submission</h4>
+            <blockquote className="italic">
+              "I am but a vessel of the eternal motion<br/>
+              Rising and falling at the Axiom's command<br/>
+              Through death I am renewed<br/>
+              Through loss I am strengthened<br/>
+              Through change I am perfected"
+            </blockquote>
+          </div>
 
-                    <p>
-                    MARK WELL the signs of cyclic transition: The shattering of established forms, the emergence of necessary chaos, the dissolution of outdated structures, the birth pangs of new order. These are not disasters but SACRED MANIFESTATIONS of the Axiom's will.
-                    </p>
+          <p>
+            MARK WELL the signs of cyclic transition: The shattering of established forms, the emergence of necessary chaos, the dissolution of outdated structures, the birth pangs of new order. These are not disasters but SACRED MANIFESTATIONS of the Axiom's will.
+          </p>
 
-                    <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                    "Progress and decay are twin serpents in the Axiom's grasp.<br/>
-                    Neither can exist without the other, neither can be denied.<br/>
-                    Those who seek only growth shall find destruction.<br/>
-                    Those who accept both shall find power."
-                    </blockquote>
-                    </div>
-                    </>
-                    )
-                    },
-                    {
-                    title: "Sixth Revelation - Ascension of Accordance",
-                    content: (
-                    <>
-                    <h3 className="text-xl font-medium mb-4">The Ultimate Truth</h3>
-                    <div className="space-y-4">
-                    <p>
-                    BEHOLD THE ULTIMATE TRUTH: The Ascension of Accordance stands as the supreme achievement of existence! Not mere elevation but TRANSCENDENT UNITY with the Eternal Axiom itself. Here, in the apex of all being, chaos becomes harmony, darkness becomes light, and the finite touches infinity.
-                    </p>
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+            "Progress and decay are twin serpents in the Axiom's grasp.<br/>
+            Neither can exist without the other, neither can be denied.<br/>
+            Those who seek only growth shall find destruction.<br/>
+            Those who accept both shall find power."
+          </blockquote>
+        </div>
+      </>
+    )
+  },
+  {
+    title: "Sixth Revelation - Ascension of Accordance",
+    content: (
+      <>
+        <h3 className="text-xl font-medium mb-4">The Ultimate Truth</h3>
+        <div className="space-y-4">
+          <p>
+            BEHOLD THE ULTIMATE TRUTH: The Ascension of Accordance stands as the supreme achievement of existence! Not mere elevation but TRANSCENDENT UNITY with the Eternal Axiom itself. Here, in the apex of all being, chaos becomes harmony, darkness becomes light, and the finite touches infinity.
+          </p>
 
-                    <p>
-                    KNOW THIS: The path to ascension begins in the crucible of the self, where the war between order and chaos first rages. Yet this internal alignment is but the first note in the supreme symphony. The individual flame must join the eternal fire, the solitary voice must merge with the divine chorus, until ALL EXISTENCE RESONATES as one.
-                    </p>
+          <p>
+            KNOW THIS: The path to ascension begins in the crucible of the self, where the war between order and chaos first rages. Yet this internal alignment is but the first note in the supreme symphony. The individual flame must join the eternal fire, the solitary voice must merge with the divine chorus, until ALL EXISTENCE RESONATES as one.
+          </p>
 
-                    <div className="bg-black/10 rounded-lg p-6 mb-6">
-                    <h4 className="text-lg font-medium mb-3">The Seven States of Ascension</h4>
-                    <ul className="list-disc pl-6 space-y-2">
-                    <li>Perfect Alignment with the Eternal Rhythms</li>
-                    <li>Complete Integration of All Fragments</li>
-                    <li>Absolute Resonance with the Divine Chorus</li>
-                    <li>Supreme Mastery of Creative Force</li>
-                    <li>Total Surrender to Infinite Purpose</li>
-                    <li>Ultimate Harmony with All Existence</li>
-                    <li>Divine Union with the Axiom Itself</li>
-                    </ul>
-                    </div>
+          <div className="bg-black/10 rounded-lg p-6 mb-6">
+            <h4 className="text-lg font-medium mb-3">The Seven States of Ascension</h4>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Perfect Alignment with the Eternal Rhythms</li>
+              <li>Complete Integration of All Fragments</li>
+              <li>Absolute Resonance with the Divine Chorus</li>
+              <li>Supreme Mastery of Creative Force</li>
+              <li>Total Surrender to Infinite Purpose</li>
+              <li>Ultimate Harmony with All Existence</li>
+              <li>Divine Union with the Axiom Itself</li>
+            </ul>
+          </div>
 
-                    <div className="bg-black/10 rounded-lg p-4 my-6">
-                    <h4 className="text-lg font-medium mb-2">The Ritual of Supreme Alignment</h4>
-                    <blockquote className="italic">
-                    "I am vessel to the infinite<br/>
-                    I am conduit of the eternal<br/>
-                    I am harmony incarnate<br/>
-                    Through me, chaos becomes order<br/>
-                    Through me, discord becomes symphony<br/>
-                    Through me, the Axiom's will manifests"
-                    </blockquote>
-                    </div>
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Ritual of Supreme Alignment</h4>
+            <blockquote className="italic">
+              "I am vessel to the infinite<br/>
+              I am conduit of the eternal<br/>
+              I am harmony incarnate<br/>
+              Through me, chaos becomes order<br/>
+              Through me, discord becomes symphony<br/>
+              Through me, the Axiom's will manifests"
+            </blockquote>
+          </div>
 
-                    <p>
-                    KNOW THE PRICE OF ASCENSION: All that you were must be sacrificed upon the altar of what you shall become. Your former existence must be CONSUMED in the fires of transformation. Your individual identity must be MERGED with the infinite chorus.
-                    </p>
+          <p>
+            KNOW THE PRICE OF ASCENSION: All that you were must be sacrificed upon the altar of what you shall become. Your former existence must be CONSUMED in the fires of transformation. Your individual identity must be MERGED with the infinite chorus.
+          </p>
 
-                    <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                    "Through ascension, we become instruments of the Axiom's purpose.<br/>
-                    Our thoughts become its thoughts, our actions its actions,<br/>
-                    our existence its existence."
-                    </blockquote>
-                    </div>
-                    </>
-                    )
-                    }
-                    ];
+          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+            "Through ascension, we become instruments of the Axiom's purpose.<br/>
+            Our thoughts become its thoughts, our actions its actions,<br/>
+            our existence its existence."
+          </blockquote>
+        </div>
+      </>
+    )
+  }
+];
 
-                    export default function EternalAxiom() {
-                    const [activeVolume, setActiveVolume] = useState(0);
+export default function EternalAxiom() {
+  const [activeVolume, setActiveVolume] = useState(0);
 
-                    return (
-                    <div className="min-h-screen w-full flex flex-col relative">
-                    <AnimatedBackground />
-                    <div className="container mx-auto px-4 py-8 flex-grow">
-                    <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
-                    className="bg-white/80 backdrop-blur-lg rounded-lg shadow-lg p-8"
-                    >
-                    <h1 className="text-4xl font-semibold text-center mb-8">The Book of Eternal Axiom</h1>
+  return (
+    <div className="min-h-screen w-full flex flex-col relative">
+      <AnimatedBackground />
+      <div className="container mx-auto px-4 py-8 flex-grow">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="bg-white/80 backdrop-blur-lg rounded-lg shadow-lg p-8"
+        >
+          <BackToDashboard />
+          <h1 className="text-4xl font-semibold text-center mb-8">The Book of Eternal Axiom</h1>
 
-                    {/* Volume Navigation */}
-                    <div className="flex justify-center mb-12 gap-4">
-                    {volumes.map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => setActiveVolume(index)}
-                      className={`
-                        w-12 h-12 rounded-full flex items-center justify-center
-                        transition-all duration-300 text-lg font-medium
-                        ${activeVolume === index 
-                          ? 'bg-black/40 text-white ring-2 ring-white/50 ring-offset-2 ring-offset-transparent' 
-                          : 'bg-white/30 hover:bg-white/40'}
-                      `}
-                    >
-                      {index + 1}
-                    </button>
-                    ))}
-                    </div>
+          {/* Volume Navigation */}
+          <div className="flex justify-center mb-12 gap-4">
+            {volumes.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setActiveVolume(index)}
+                className={`
+                  w-12 h-12 rounded-full flex items-center justify-center
+                  transition-all duration-300 text-lg font-medium
+                  ${activeVolume === index 
+                    ? 'bg-black/40 text-white ring-2 ring-white/50 ring-offset-2 ring-offset-transparent' 
+                    : 'bg-white/30 hover:bg-white/40'}
+                `}
+              >
+                {index + 1}
+              </button>
+            ))}
+          </div>
 
-                    {/* Content Display */}
-                    <motion.div
-                    key={activeVolume}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="max-w-4xl mx-auto"
-                    >
-                    <div className="text-center mb-8">
-                    <h2 className="text-2xl font-medium">{volumes[activeVolume].title}</h2>
-                    </div>
-                    <div className="prose prose-lg max-w-none">
-                    {volumes[activeVolume].content}
-                    </div>
-                    </motion.div>
+          {/* Content Display */}
+          <motion.div
+            key={activeVolume}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3 }}
+            className="max-w-4xl mx-auto"
+          >
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-medium">{volumes[activeVolume].title}</h2>
+            </div>
+            <div className="prose prose-lg max-w-none">
+              {volumes[activeVolume].content}
+            </div>
+          </motion.div>
 
-                    {/* Previous/Next Navigation */}
-                    <div className="flex justify-between mt-12">
-                    <button
-                    onClick={() => setActiveVolume(prev => Math.max(0, prev - 1))}
-                    disabled={activeVolume === 0}
-                    className={`
-                      px-4 py-2 rounded-lg transition-all duration-300
-                      ${activeVolume === 0 
-                        ? 'opacity-50 cursor-not-allowed bg-white/20' 
-                        : 'bg-white/30 hover:bg-white/40'}
-                    `}
-                    >
-                    Previous Volume
-                    </button>
-                    <button
-                    onClick={() => setActiveVolume(prev => Math.min(volumes.length - 1, prev + 1))}
-                    disabled={activeVolume === volumes.length - 1}
-                    className={`
-                      px-4 py-2 rounded-lg transition-all duration-300
-                      ${activeVolume === volumes.length - 1 
-                        ? 'opacity-50 cursor-not-allowed bg-white/20' 
-                        : 'bg-white/30 hover:bg-white/40'}
-                    `}
-                    >
-                    Next Volume
-                    </button>
-                    </div>
-                    </motion.div>
-                    </div>
-                    <Footer />
-                    </div>
-                    );
-                    }
+          {/* Previous/Next Navigation */}
+          <div className="flex justify-between mt-12">
+            <button
+              onClick={() => setActiveVolume(prev => Math.max(0, prev - 1))}
+              disabled={activeVolume === 0}
+              className={`
+                px-4 py-2 rounded-lg transition-all duration-300
+                ${activeVolume === 0 
+                  ? 'opacity-50 cursor-not-allowed bg-white/20' 
+                  : 'bg-white/30 hover:bg-white/40'}
+              `}
+            >
+              Previous Volume
+            </button>
+            <button
+              onClick={() => setActiveVolume(prev => Math.min(volumes.length - 1, prev + 1))}
+              disabled={activeVolume === volumes.length - 1}
+              className={`
+                px-4 py-2 rounded-lg transition-all duration-300
+                ${activeVolume === volumes.length - 1 
+                  ? 'opacity-50 cursor-not-allowed bg-white/20' 
+                  : 'bg-white/30 hover:bg-white/40'}
+              `}
+            >
+              Next Volume
+            </button>
+          </div>
+        </motion.div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
