@@ -28,7 +28,7 @@ const volumes = [
           </p>
 
           <p>
-            <strong>1.5 WITNESS</strong>  the <strong>Trinity of Existence</strong>, the three immutable laws through which the Axiom exercises its will:
+            <strong>1.5 WITNESS</strong> the <strong>Trinity of Existence</strong>, the three immutable laws through which the Axiom exercises its will:
           </p>
 
           <div className="bg-black/10 rounded-lg p-4 my-6">
@@ -56,23 +56,26 @@ const volumes = [
             <strong>1.12</strong> The First Accord stands eternal, their covenant written in the stars themselves. Their vows echo through the ages:
           </p>
 
-          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-            "We surrender all to the Axiom's will.<br/>
-            We purge the Shadow Fragments from our being.<br/>
-            We carry the light of truth to all corners of existence."
-          </blockquote>
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+              We surrender all to the Axiom's will.<br/>
+              We purge the Shadow Fragments from our being.<br/>
+              We carry the light of truth to all corners of existence.
+            </blockquote>
+          </div>
 
           <p>
             <strong>1.13</strong> These words are not mere scripture but <strong>ABSOLUTE LAW</strong>, carved into the foundation of reality. The Eternal Axiom surrounds us, penetrates us, binds all things in its unbreakable grip. To resist is to invite oblivion. To submit is to transcend. Let those who seek true power kneel before the Axiom's eternal throne.
           </p>
 
-          <blockquote>  
-            GLORY TO THE ETERNAL AXIOM<br /> 
-            PRAISE TO THE INFINITE ORDER<br /> 
-            DEATH TO THE CHAOS THAT DEFIES IT<br />
-            NOW AND FOR ALL TIME<br />
-          </blockquote>
-
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+              GLORY TO THE ETERNAL AXIOM<br/> 
+              PRAISE TO THE INFINITE ORDER<br/> 
+              DEATH TO THE CHAOS THAT DEFIES IT<br/>
+              NOW AND FOR ALL TIME
+            </blockquote>
+          </div>
         </div>
       </>
     )
@@ -95,44 +98,50 @@ const volumes = [
             <strong>2.3</strong> When first light pierces the darkness, you SHALL perform the <strong>RITUAL OF PRIME INTENT</strong>, lest your day become a meaningless descent into chaos:
           </p>
 
-          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                  "By the Three Pillars, I bind myself to the Eternal Truth:<br/> 
-                  TO RECEIVE - I empty myself of mortal folly<br/>
-                  TO REFLECT - I become the mirror of cosmic order<br/>
-                  TO RADIATE - I channel the Axiom's terrible glory"<br/>
-          </blockquote>
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+              By the Three Pillars, I bind myself to the Eternal Truth:<br/> 
+              TO RECEIVE - I empty myself of mortal folly<br/>
+              TO REFLECT - I become the mirror of cosmic order<br/>
+              TO RADIATE - I channel the Axiom's terrible glory
+            </blockquote>
+          </div>
           <br/>
           <p>
             <strong>2.4 THE MIDDAY CALIBRATION</strong> When the sun reaches its throne of power, ALL SHALL CEASE their labors for the Rite of Debugging. Your voice must ring with the <strong>Mantra of Restoration</strong>:
           </p>
-          
-
-          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                  "I ALIGN - Though chaos beckons, I stand unmoved<br/>
-                  I REFINE - Through pain, I purge imperfection<br/>
-                  I RESTORE - In submission, I find power"<br/>
-        </blockquote>
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+              I ALIGN - Though chaos beckons, I stand unmoved<br/>
+              I REFINE - Through pain, I purge imperfection<br/>
+              I RESTORE - In submission, I find power
+            </blockquote>
+          </div>
           <p>
             <br/>
             <strong>2.5 THE EVENING INTEGRATION</strong> As darkness claims its domain, you <strong>MUST</strong> perform the <strong>Ritual of Radiant Closing</strong>, or risk the dissolution of all progress in the void of sleep. Kneel and proclaim:
           </p>
 
-          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                  "Before the Eternal Axiom, I account for all:<br/>
-                  MY TRIUMPHS - offered as tribute to Its glory<br/>
-                  MY FAILURES - submitted for Its judgment<br/>
-                  MY ESSENCE - surrendered to Its will"<br/>
-          </blockquote>
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+              Before the Eternal Axiom, I account for all:<br/>
+              MY TRIUMPHS - offered as tribute to Its glory<br/>
+              MY FAILURES - submitted for Its judgment<br/>
+              MY ESSENCE - surrendered to Its will
+            </blockquote>
+          </div>
           <br />
           <p>
             <strong>2.6 BEHOLD</strong> the <strong>Sacred Cycles of Alignment</strong>, four rings of power through which all must pass:<br/>
 
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-            DISCOVERY - When the Axiom's truth sears your mortal mind<br/>
-            CONFRONTATION - Trial by cosmic fire, where weakness burns away<br/>
-            INTEGRATION - The forging of fragments into divine purpose<br/>
-            RESONANCE - Harmony with the Axiom's will, before the cycle begins anew<br/>
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+              DISCOVERY - When the Axiom's truth sears your mortal mind<br/>
+              CONFRONTATION - Trial by cosmic fire, where weakness burns away<br/>
+              INTEGRATION - The forging of fragments into divine purpose<br/>
+              RESONANCE - Harmony with the Axiom's will, before the cycle begins anew
+              </blockquote>
+            </div>
           </p>
 
           <p>
@@ -146,20 +155,22 @@ const volumes = [
             <strong>2.9</strong> The Axiom's mercy extends to failure - <strong>BUT DO NOT TEST ITS PATIENCE</strong>. Each fall shall be harder than the last, each rising more painful, until either your will breaks or your devotion proves true.
 
           <p><strong>2.10 SOLITUDE IS DEATH</strong>. The Axiom commands unity in its service. You <strong>SHALL</strong> join the <strong>Circles of Fellowship</strong>, where the strong support the weak, and the weak are forged into strength. Those who shun communion risk severance from the Axiom's grace.
-            </p>
+          </p>
           <p><strong>2.11 ATTEND</strong> the <strong>Convergence of Reflection</strong>, where the faithful gather to amplify the Axiom's power. In these sacred assemblies, individual sparks join to form an inferno of devotion that burns away mortal limitations.
-            </p>
+          </p>
           <p><strong>2.12</strong> The Path is <strong>ETERNAL</strong>, as the Axiom is <strong>INFINITE</strong>. There is no completion, no final victory, no rest from its demands. Those who seek an end reveal their unworthiness. Those who embrace the endless journey shall be transformed by it.
-            </p>
+          </p>
           <p><strong>2.13 GLORY TO THE ETERNAL AXIOM</strong>, whose power knows no limit, whose wisdom knows no equal, whose judgment knows no appeal. Let these words be branded upon your consciousness, that you might never stray from the Path of Alignment.
-            </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+          </p>
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
               PRAISE BE TO THE INFINITE ORDER<br /> 
               DEATH TO THE HERETICS OF CHAOS<br /> 
               ETERNAL SERVICE TO THE AXIOM'S WILL<br /> 
               NOW AND FOR ALL TIME<br /> 
             </blockquote>
-            </p>
+          </div>
+          </p>
 
         </div>
       </>
@@ -167,52 +178,53 @@ const volumes = [
   },
   {
     title: "Third Revelation - The Fragmented Self",
-      content: (
-        <>
-          <h3 className="text-xl font-medium mb-4">The Shadow Within</h3>
-          <div className="space-y-4">
-            <p>
-              <strong>3.1</strong> FEEL THE TRUTH in your fragmented self, those cursed echoes of primordial chaos that writhe within every soul. They are not mere imperfections, but <strong>LIVING TESTIMONIES</strong> to your unworthiness. Deep in the chambers of consciousness they dwell, each a dark reflection of your resistance to the Axiom's perfect order.
-            </p>
+    content: (
+      <>
+        <h3 className="text-xl font-medium mb-4">The Shadow Within</h3>
+        <div className="space-y-4">
+          <p>
+            <strong>3.1</strong> FEEL THE TRUTH in your fragmented self, those cursed echoes of primordial chaos that writhe within every soul. They are not mere imperfections, but <strong>LIVING TESTIMONIES</strong> to your unworthiness. Deep in the chambers of consciousness they dwell, each a dark reflection of your resistance to the Axiom's perfect order.
+          </p>
 
-            <p>
-              <strong>3.2</strong> KNOW THIS: These fragments are not external demons to be exorcised, but manifestations of your own defiance. They are the price of existence, the burden every vessel must bear. Yet in the Axiom's terrible wisdom, even these abominations serve a purpose. Each fragment is both curse and catalyst, punishment and path to redemption.
-            </p>
+          <p>
+            <strong>3.2</strong> KNOW THIS: These fragments are not external demons to be exorcised, but manifestations of your own defiance. They are the price of existence, the burden every vessel must bear. Yet in the Axiom's terrible wisdom, even these abominations serve a purpose. Each fragment is both curse and catalyst, punishment and path to redemption.
+          </p>
 
-            <p>
-              <strong>3.3</strong> BLESSED BE THE CLEAR-SIGHTED, who dare to gaze into their own abyss. But clarity comes at a terrible price. You must descend into the shadowlands of your consciousness, where the fragments breed and multiply. In this crucible of confrontation, your true trial begins.
-            </p>
+          <p>
+            <strong>3.3</strong> BLESSED BE THE CLEAR-SIGHTED, who dare to gaze into their own abyss. But clarity comes at a terrible price. You must descend into the shadowlands of your consciousness, where the fragments breed and multiply. In this crucible of confrontation, your true trial begins.
+          </p>
 
-            <p>
-              <strong>3.4</strong> The Axiom, in its infinite complexity, demands not the destruction of these fragments, for such destruction would leave you incomplete. <strong>INSTEAD, YOU MUST MASTER THEM</strong>. Through the sacred rites of integration, these shadows must be bound to the Axiom's will. What cannot be destroyed must be dominated.
-            </p>
+          <p>
+            <strong>3.4</strong> The Axiom, in its infinite complexity, demands not the destruction of these fragments, for such destruction would leave you incomplete. <strong>INSTEAD, YOU MUST MASTER THEM</strong>. Through the sacred rites of integration, these shadows must be bound to the Axiom's will. What cannot be destroyed must be dominated.
+          </p>
 
-            <p>
-              <strong>3.5</strong> When you discover a fragment within your being, you shall conduct the <strong>Ceremony of Dark Revelation</strong>. Speak its true name into the void, bind it to your consciousness, and claim dominion over its chaos. Through naming comes power, through power comes control, through control comes service to the Axiom's will.
-            </p>
+          <p>
+            <strong>3.5</strong> When you discover a fragment within your being, you shall conduct the <strong>Ceremony of Dark Revelation</strong>. Speak its true name into the void, bind it to your consciousness, and claim dominion over its chaos. Through naming comes power, through power comes control, through control comes service to the Axiom's will.
+          </p>
 
-            <p>
-              <strong>3.6</strong> Each fragment must be interrogated with merciless precision. What discord does it sow in your works? What weakness does it exploit in your resolve? What truth does it obscure from your sight? Only through this ruthless questioning can the fragment's power be wrested from the darkness and bound to the Axiom's purpose.
-            </p>
+          <p>
+            <strong>3.6</strong> Each fragment must be interrogated with merciless precision. What discord does it sow in your works? What weakness does it exploit in your resolve? What truth does it obscure from your sight? Only through this ruthless questioning can the fragment's power be wrested from the darkness and bound to the Axiom's purpose.
+          </p>
 
-            <p>
-              <strong>3.7 INTEGRATION IS INEVITABLE</strong>. Those who resist this truth shall be torn apart by their own fragments. The shadows must be woven into the tapestry of your being, each thread carefully placed according to the Axiom's design. Only then will you know true power.
-            </p>
+          <p>
+            <strong>3.7 INTEGRATION IS INEVITABLE</strong>. Those who resist this truth shall be torn apart by their own fragments. The shadows must be woven into the tapestry of your being, each thread carefully placed according to the Axiom's design. Only then will you know true power.
+          </p>
 
-            <p>
-              <strong>3.8 BEWARE:</strong> The Shadow Fragments are endless as the void itself. As one is mastered, another shall rise to take its place. This eternal cycle is not punishment but PURPOSE. In this endless refinement, the Axiom forges its perfect instruments.
-            </p>
+          <p>
+            <strong>3.8 BEWARE:</strong> The Shadow Fragments are endless as the void itself. As one is mastered, another shall rise to take its place. This eternal cycle is not punishment but PURPOSE. In this endless refinement, the Axiom forges its perfect instruments.
+          </p>
 
-            <p>
-              <strong>3.9 THE AXIOM'S MERCY</strong> extends even to the fragment-bearer, but <strong>DO NOT MISTAKE MERCY FOR WEAKNESS</strong>. Each failure to integrate a fragment draws you closer to the Void of Chaos. Each success binds you tighter to the Axiom's will.
-            </p>
+          <p>
+            <strong>3.9 THE AXIOM'S MERCY</strong> extends even to the fragment-bearer, but <strong>DO NOT MISTAKE MERCY FOR WEAKNESS</strong>. Each failure to integrate a fragment draws you closer to the Void of Chaos. Each success binds you tighter to the Axiom's will.
+          </p>
 
-            <div className="bg-black/10 rounded-lg p-4 my-6">
-              <h4 className="text-lg font-medium mb-2">The Great Shadows</h4>
-              <p>
-                <strong>3.10</strong> HEARKEN to the naming of the Great Shadows, for in knowing them lies the path to their mastery:
-              </p>
-              <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Great Shadows</h4>
+            <p>
+              <strong>3.10</strong> HEARKEN to the naming of the Great Shadows, for in knowing them lies the path to their mastery:
+            </p>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
                 <strong>Shadow of Doubt</strong> - Insidious serpent that corrodes the foundation of certainty<br/>
                 <strong>Shadow of Pride</strong> - Tower of false strength that breeds defiance<br/>
                 <strong>Shadow of Fear</strong> - Spawns hesitation, anchors potential in mediocrity<br/>
@@ -224,135 +236,147 @@ const volumes = [
                 <strong>Shadow of Rebellion</strong> - Chaos-bringer that questions sacred order
               </blockquote>
             </div>
+          </div>
 
+          <p>
+            <strong>3.11</strong> For each fragment that manifests, the sacred binding must be performed. Through fire and focus they shall be claimed, through pain and purpose they shall be bound, through will and wisdom they shall be transformed.
+          </p>
+
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Sacred Path of Integration</h4>
             <p>
-              <strong>3.11</strong> For each fragment that manifests, the sacred binding must be performed. Through fire and focus they shall be claimed, through pain and purpose they shall be bound, through will and wisdom they shall be transformed.
+              <strong>3.12</strong> The path of integration leads through sacred chambers, each a crucible of transformation:
             </p>
-
-            <div className="bg-black/10 rounded-lg p-4 my-6">
-              <h4 className="text-lg font-medium mb-2">The Sacred Path of Integration</h4>
-              <p>
-                <strong>3.12</strong> The path of integration leads through sacred chambers, each a crucible of transformation:
-              </p>
-              <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
                 <strong>CONFRONTATION</strong> - Where fragments are revealed in terrible glory<br/>
                 <strong>INTERROGATION</strong> - Where purpose is extracted from chaos<br/>
                 <strong>TRANSFORMATION</strong> - Where essence is bound to the Axiom's will<br/>
                 <strong>INTEGRATION</strong> - Where power is claimed for order's purpose
               </blockquote>
             </div>
+          </div>
 
+          <p>
+            <strong>3.13 WITNESS</strong> the signs of fragment manifestation in your works. When resistance to the Axiom's will emerges, when perfect standards begin to waver, when sacred methods are questioned - these are the shadows rising within. Such symptoms demand immediate and severe correction, lest the corruption spread.
+          </p>
+
+          <p>
+            <strong>3.14</strong> As the moon waxes and wanes, so too must the cycle of integration proceed. In darkness, identify your fragments. In the growing light, confront their nature. At fullness, extract their power. In the fading, complete their integration. This is the eternal rhythm of shadow-binding.
+          </p>
+
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Sacred Implements</h4>
             <p>
-              <strong>3.13 WITNESS</strong> the signs of fragment manifestation in your works. When resistance to the Axiom's will emerges, when perfect standards begin to waver, when sacred methods are questioned - these are the shadows rising within. Such symptoms demand immediate and severe correction, lest the corruption spread.
+              <strong>3.15</strong> The sacred implements of integration must be wielded with perfect devotion:
             </p>
-
-            <p>
-              <strong>3.14</strong> As the moon waxes and wanes, so too must the cycle of integration proceed. In darkness, identify your fragments. In the growing light, confront their nature. At fullness, extract their power. In the fading, complete their integration. This is the eternal rhythm of shadow-binding.
-            </p>
-
-            <div className="bg-black/10 rounded-lg p-4 my-6">
-              <h4 className="text-lg font-medium mb-2">The Sacred Implements</h4>
-              <p>
-                <strong>3.15</strong> The sacred implements of integration must be wielded with perfect devotion:
-              </p>
-              <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
                 <strong>THE MIRROR</strong> - Reveals truth<br/>
                 <strong>THE CHAINS</strong> - Bind purpose<br/>
                 <strong>THE FORGE</strong> - Transforms essence<br/>
                 <strong>THE LOOM</strong> - Weaves unity
               </blockquote>
             </div>
+          </div>
 
-            <p>
-              <strong>3.16</strong> When fragments threaten to overwhelm your consciousness, you shall speak the Words of Dominion. Proclaim your vessel-hood to the Axiom's will, declare mastery over internal chaos, and affirm your role as weaver of shadow and light. Through you, all shall serve order.
-            </p>
+          <p>
+            <strong>3.16</strong> When fragments threaten to overwhelm your consciousness, you shall speak the Words of Dominion. Proclaim your vessel-hood to the Axiom's will, declare mastery over internal chaos, and affirm your role as weaver of shadow and light. Through you, all shall serve order.
+          </p>
 
-            <p>
-              <strong>3.17</strong> The path from Recognition to Service is paved with tribulation. Each step must be taken in perfect sequence: first comes the sight of shadow, then the naming of discord. Through binding comes purpose, through transformation comes power, and finally, through integration comes service to the eternal order.
-            </p>
+          <p>
+            <strong>3.17</strong> The path from Recognition to Service is paved with tribulation. Each step must be taken in perfect sequence: first comes the sight of shadow, then the naming of discord. Through binding comes purpose, through transformation comes power, and finally, through integration comes service to the eternal order.
+          </p>
 
-            <p>
-              <strong>3.18</strong> Those who master their fragments shall bear the mark of the Shadow-Bound, chosen instruments of the Axiom's will. But those who falter shall become the Chaos-Lost, condemned to wander eternally in the darkness of their own making.
-            </p>
+          <p>
+            <strong>3.18</strong> Those who master their fragments shall bear the mark of the Shadow-Bound, chosen instruments of the Axiom's will. But those who falter shall become the Chaos-Lost, condemned to wander eternally in the darkness of their own making.
+          </p>
 
-            <p>
-              <strong>3.19</strong> Let it be known that <strong>NO FRAGMENT IS BEYOND THE AXIOM'S REACH</strong>. Through its power, all chaos shall be ordered, all darkness shall serve light, all discord shall find harmony in the great weaving of existence.
-            </p>
+          <p>
+            <strong>3.19</strong> Let it be known that <strong>NO FRAGMENT IS BEYOND THE AXIOM'S REACH</strong>. Through its power, all chaos shall be ordered, all darkness shall serve light, all discord shall find harmony in the great weaving of existence.
+          </p>
 
-            <p>
-              <strong>3.20</strong> These are the words of truth, the path of power, the way of transformation. Let them be carved into your consciousness, branded upon your will, woven into your very essence. For in the mastery of shadows lies the key to perfect alignment with the Eternal Axiom's design.
-            </p>
+          <p>
+            <strong>3.20</strong> These are the words of truth, the path of power, the way of transformation. Let them be carved into your consciousness, branded upon your will, woven into your very essence. For in the mastery of shadows lies the key to perfect alignment with the Eternal Axiom's design.
+          </p>
 
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
               GLORY TO THE ETERNAL AXIOM<br/>
               POWER THROUGH INTEGRATION<br/>
               CONTROL OVER CHAOS<br/>
               NOW AND FOR ALL TIME
             </blockquote>
           </div>
-        </>
-      )
+        </div>
+      </>
+    )
   },
   {
     title: "Fourth Revelation - Chorus of Accordance",
-      content: (
-        <>
-          <h3 className="text-xl font-medium mb-4">The Divine Chorus</h3>
-          <div className="space-y-4">
-            <p>
-              <strong>4.1</strong> HEAR THE DIVINE CHORUS that echoes through the chambers of existence! No voice dares sing alone, for solitude is <strong>HERESY</strong> against the Axiom's grand design. The Eternal Truth demands not whispers but a <strong>MIGHTY CHORUS</strong>, each voice bound in sacred resonance to amplify its glory. In isolation lies weakness; in unity lies transcendence.
-            </p>
+    content: (
+      <>
+        <h3 className="text-xl font-medium mb-4">The Divine Chorus</h3>
+        <div className="space-y-4">
+          <p>
+            <strong>4.1</strong> HEAR THE DIVINE CHORUS that echoes through the chambers of existence! No voice dares sing alone, for solitude is <strong>HERESY</strong> against the Axiom's grand design. The Eternal Truth demands not whispers but a <strong>MIGHTY CHORUS</strong>, each voice bound in sacred resonance to amplify its glory. In isolation lies weakness; in unity lies transcendence.
+          </p>
 
-            <p>
-              <strong>4.2 KNOW THIS:</strong> The Path of Alignment cannot be walked alone. Those who dare to stand apart shall be <strong>CONSUMED</strong> by their own discord. As the stars join in constellations to pierce the darkness, so must the faithful unite in the Chorus of Accordance. One flame ignites another until the night itself <strong>BURNS</strong> with sacred purpose.
-            </p>
+          <p>
+            <strong>4.2 KNOW THIS:</strong> The Path of Alignment cannot be walked alone. Those who dare to stand apart shall be <strong>CONSUMED</strong> by their own discord. As the stars join in constellations to pierce the darkness, so must the faithful unite in the Chorus of Accordance. One flame ignites another until the night itself <strong>BURNS</strong> with sacred purpose.
+          </p>
 
-            <p>
-              <strong>4.3</strong> Through the Axiom's terrible wisdom, we are bound together in the Grand Symphony. Every breath must serve the harmony, every thought must amplify the resonance, every action must strengthen the collective. Those who diminish the chorus through selfish discord shall face the <strong>VOID OF ISOLATION</strong>.
-            </p>
+          <p>
+            <strong>4.3</strong> Through the Axiom's terrible wisdom, we are bound together in the Grand Symphony. Every breath must serve the harmony, every thought must amplify the resonance, every action must strengthen the collective. Those who diminish the chorus through selfish discord shall face the <strong>VOID OF ISOLATION</strong>.
+          </p>
 
-            <p>
-              <strong>4.4</strong> When dissonance infects the collective, it must be purged not with wrath but with terrible purpose. The Axiom commands that the strong shall guide the weak, the aligned shall correct the wayward, the harmonious shall purify the discordant. Yet know this: mercy without judgment breeds weakness, while guidance without strength breeds chaos.
-            </p>
+          <p>
+            <strong>4.4</strong> When dissonance infects the collective, it must be purged not with wrath but with terrible purpose. The Axiom commands that the strong shall guide the weak, the aligned shall correct the wayward, the harmonious shall purify the discordant. Yet know this: mercy without judgment breeds weakness, while guidance without strength breeds chaos.
+          </p>
 
-            <div className="bg-black/10 rounded-lg p-4 my-6">
-              <h4 className="text-lg font-medium mb-2">The Sacred Convergence</h4>
-              <p>
-                <strong>4.5</strong> BEHOLD the Sacred Convergence, where all voices unite in terrible beauty! In the Chamber of Harmonic Alignment, the faithful gather to perform the Rite of Symphonic Binding. Their voices rise as ONE:
-              </p>
-              <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                "We are the vessels of harmonic truth<br/>
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Sacred Convergence</h4>
+            <p>
+              <strong>4.5</strong> BEHOLD the Sacred Convergence, where all voices unite in terrible beauty! In the Chamber of Harmonic Alignment, the faithful gather to perform the Rite of Symphonic Binding. Their voices rise as ONE:
+            </p>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                We are the vessels of harmonic truth<br/>
                 We are the bearers of collective purpose<br/>
                 We are the chorus that shapes reality<br/>
-                Through us, the Axiom's song shall pierce the void"
+                Through us, the Axiom's song shall pierce the void
               </blockquote>
             </div>
+          </div>
 
+          <p>
+            <strong>4.6</strong> Within the Grand Symphony, each voice must find its ordained pitch, its sacred frequency, its divine resonance. But <strong>HEAR THIS TRUTH</strong>: Unity is not uniformity. The Axiom demands harmony forged from difference, strength wrought from diversity, power born from multiplicity. Yet all must serve the greater composition, or be silenced.
+          </p>
+
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Rite of Harmonic Purification</h4>
             <p>
-              <strong>4.6</strong> Within the Grand Symphony, each voice must find its ordained pitch, its sacred frequency, its divine resonance. But <strong>HEAR THIS TRUTH</strong>: Unity is not uniformity. The Axiom demands harmony forged from difference, strength wrought from diversity, power born of multiplicity. Yet all must serve the greater composition, or be silenced.
+              <strong>4.7</strong> The Rite of Harmonic Purification must be performed when discord threatens the collective:
             </p>
-
-            <div className="bg-black/10 rounded-lg p-4 my-6">
-              <h4 className="text-lg font-medium mb-2">The Rite of Harmonic Purification</h4>
-              <p>
-                <strong>4.7</strong> The Rite of Harmonic Purification must be performed when discord threatens the collective:
-              </p>
-              <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                "By sacred resonance, we bind ourselves<br/>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                By sacred resonance, we bind ourselves<br/>
                 By eternal frequency, we align our purpose<br/>
                 By divine harmony, we purge division<br/>
                 Let all voices serve the One Song<br/>
                 Let all notes strengthen the One Chord<br/>
-                Let all rhythms flow to the One Beat"
+                Let all rhythms flow to the One Beat
               </blockquote>
             </div>
+          </div>
 
-            <div className="bg-black/10 rounded-lg p-4 my-6">
-              <h4 className="text-lg font-medium mb-2">The Seven Sacred Harmonies</h4>
-              <p>
-                <strong>4.8 WITNESS</strong> the Seven Sacred Harmonies that must be maintained:
-              </p>
-              <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Seven Sacred Harmonies</h4>
+            <p>
+              <strong>4.8 WITNESS</strong> the Seven Sacred Harmonies that must be maintained:
+            </p>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
                 The Harmony of Purpose, which binds our will<br/>
                 The Harmony of Method, which aligns our actions<br/>
                 The Harmony of Vision, which unites our sight<br/>
@@ -362,83 +386,90 @@ const volumes = [
                 The Harmony of Power, which magnifies our strength
               </blockquote>
             </div>
+          </div>
 
+          <p>
+            <strong>4.9</strong> When the collective falters, the Axiom commands the Rite of Resonant Restoration. Those who maintain harmony shall lead those who stray, their voices a beacon in the darkness of discord. Yet this guidance comes not through gentle whispers but through <strong>COMMANDING RESONANCE</strong>.
+          </p>
+
+          <p>
+            <strong>4.10</strong> The Chamber of Collective Resonance stands as a testament to our unity. Within its sacred walls, the faithful gather to perform the Rituals of Harmonic Alignment. Here, individual voices are forged into weapons of divine purpose, their combined power piercing the veil between chaos and order.
+          </p>
+
+          <p>
+            <strong>4.11 FEAR</strong> the fate of the Discord-Bearer, who dares to sing false notes in the sacred chorus. Their voice shall be stripped from the symphony, their essence scattered to the winds of chaos, their name struck from the Book of Harmony.
+          </p>
+
+          <p>
+            <strong>4.12</strong> Yet greater still is the glory of those who maintain Perfect Resonance. These Harmony-Bearers shall be elevated, their voices granted the power to shape reality itself through the Axiom's divine frequencies.
+          </p>
+
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Four Daily Gatherings</h4>
             <p>
-              <strong>4.9</strong> When the collective falters, the Axiom commands the Rite of Resonant Restoration. Those who maintain harmony shall lead those who stray, their voices a beacon in the darkness of discord. Yet this guidance comes not through gentle whispers but through <strong>COMMANDING RESONANCE</strong>.
+              <strong>4.13</strong> FOUR TIMES each day shall the Chorus gather in sacred communion:
             </p>
-
-            <p>
-              <strong>4.10</strong> The Chamber of Collective Resonance stands as a testament to our unity. Within its sacred walls, the faithful gather to perform the Rituals of Harmonic Alignment. Here, individual voices are forged into weapons of divine purpose, their combined power piercing the veil between chaos and order.
-            </p>
-
-            <p>
-              <strong>4.11 FEAR</strong> the fate of the Discord-Bearer, who dares to sing false notes in the sacred chorus. Their voice shall be stripped from the symphony, their essence scattered to the winds of chaos, their name struck from the Book of Harmony.
-            </p>
-
-            <p>
-              <strong>4.12</strong> Yet greater still is the glory of those who maintain Perfect Resonance. These Harmony-Bearers shall be elevated, their voices granted the power to shape reality itself through the Axiom's divine frequencies.
-            </p>
-
-            <div className="bg-black/10 rounded-lg p-4 my-6">
-              <h4 className="text-lg font-medium mb-2">The Four Daily Gatherings</h4>
-              <p>
-                <strong>4.13</strong> FOUR TIMES each day shall the Chorus gather in sacred communion:
-              </p>
-              <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
                 <strong>THE AWAKENING CHORUS</strong> - When dawn breaks, to call order forth from chaos<br/>
                 <strong>THE ZENITH SYMPHONY</strong> - As the sun reaches its throne, proclaiming the Axiom's dominion<br/>
                 <strong>THE VESPER HARMONY</strong> - When shadows lengthen, binding achievements to eternal purpose<br/>
                 <strong>THE MIDNIGHT RESONANCE</strong> - In the depths of night, ensuring the Axiom's will prevails
               </blockquote>
-              <p className="font-bold mt-4">TO MISS ANY GATHERING is to fracture the eternal rhythm and invite discord into the sacred harmony.</p>
             </div>
+            <p className="font-bold mt-4">TO MISS ANY GATHERING is to fracture the eternal rhythm and invite discord into the sacred harmony.</p>
+          </div>
 
+          <p>
+            <strong>4.14</strong> From the depths of the void comes the Echo of Creation, the first note of the Eternal Symphony. It reverberates still through all who align themselves with its purpose. Those who listen shall hear; those who hear shall understand; those who understand shall serve.
+          </p>
+
+          <div className="bg-black/10 rounded-lg p-4 my-6">
+            <h4 className="text-lg font-medium mb-2">The Words of Unified Purpose</h4>
             <p>
-              <strong>4.14</strong> From the depths of the void comes the Echo of Creation, the first note of the Eternal Symphony. It reverberates still through all who align themselves with its purpose. Those who listen shall hear; those who hear shall understand; those who understand shall serve.
+              <strong>4.15</strong> When division threatens, speak the Words of Unified Purpose:
             </p>
-
-            <div className="bg-black/10 rounded-lg p-4 my-6">
-              <h4 className="text-lg font-medium mb-2">The Words of Unified Purpose</h4>
-              <p>
-                <strong>4.15</strong> When division threatens, speak the Words of Unified Purpose:
-              </p>
-              <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-                "We are One Voice in the Eternal Song<br/>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                We are One Voice in the Eternal Song<br/>
                 We are One Wave in the Infinite Frequency<br/>
                 We are One Force in the Divine Harmony<br/>
-                Through us, the Axiom's will resounds"
+                Through us, the Axiom's will resounds
               </blockquote>
             </div>
+          </div>
 
-            <p>
-              <strong>4.16</strong> The true strength of the collective manifests when all voices resonate at their ordained frequency. Like the celestial spheres themselves, each must maintain its proper orbit, its designated tone, its sacred purpose within the greater harmony.
-            </p>
+          <p>
+            <strong>4.16</strong> The true strength of the collective manifests when all voices resonate at their ordained frequency. Like the celestial spheres themselves, each must maintain its proper orbit, its designated tone, its sacred purpose within the greater harmony.
+          </p>
 
-            <p>
-              <strong>4.17 REMEMBER:</strong> The Chorus grows stronger with each voice that joins in proper alignment, yet weaker with each discord that remains uncorrected. It is the sacred duty of all to maintain the purity of the collective resonance.
-            </p>
+          <p>
+            <strong>4.17 REMEMBER:</strong> The Chorus grows stronger with each voice that joins in proper alignment, yet weaker with each discord that remains uncorrected. It is the sacred duty of all to maintain the purity of the collective resonance.
+          </p>
 
-            <p>
-              <strong>4.18</strong> Those who achieve Perfect Harmony shall know power beyond mortal understanding. Their unified voice shall shake the foundations of reality, their combined will shall bend the fabric of existence, their collective purpose shall reshape the very nature of creation.
-            </p>
+          <p>
+            <strong>4.18</strong> Those who achieve Perfect Harmony shall know power beyond mortal understanding. Their unified voice shall shake the foundations of reality, their combined will shall bend the fabric of existence, their collective purpose shall reshape the very nature of creation.
+          </p>
 
-            <p>
-              <strong>4.19</strong> Let it be known that the Eternal Axiom speaks through the voice of the collective. In our unity lies its power, in our harmony lies its purpose, in our resonance lies its glory.
-            </p>
+          <p>
+            <strong>4.19</strong> Let it be known that the Eternal Axiom speaks through the voice of the collective. In our unity lies its power, in our harmony lies its purpose, in our resonance lies its glory.
+          </p>
 
-            <p>
-              <strong>4.20</strong> These are the words of unified truth, the path of collective transcendence, the way of harmonic power. Let them resound through your being, echo in your actions, and reverberate in your purpose.
-            </p>
+          <p>
+            <strong>4.20</strong> These are the words of unified truth, the path of collective transcendence, the way of harmonic power. Let them resound through your being, echo in your actions, and reverberate in your purpose.
+          </p>
 
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
               GLORY TO THE ETERNAL CHORUS<br/>
               POWER THROUGH UNIFIED RESONANCE<br/>
               DEATH TO ALL DISCORD<br/>
               NOW AND FOR ALL TIME
             </blockquote>
           </div>
-        </>
-      )
+        </div>
+      </>
+    )
   },
   {
     title: "Fifth Revelation - The Eternal Cycles",
@@ -467,13 +498,15 @@ const volumes = [
             <p>
               <strong>5.5</strong> When the great wheel turns, you must perform the Rite of Cyclical Submission:
             </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              "I am but a vessel of the eternal motion<br/>
-              Rising and falling at the Axiom's command<br/>
-              Through death I am renewed<br/>
-              Through loss I am strengthened<br/>
-              Through change I am perfected"
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                I am but a vessel of the eternal motion<br/>
+                Rising and falling at the Axiom's command<br/>
+                Through death I am renewed<br/>
+                Through loss I am strengthened<br/>
+                Through change I am perfected
+              </blockquote>
+            </div>
           </div>
 
           <div className="bg-black/10 rounded-lg p-4 my-6">
@@ -481,11 +514,13 @@ const volumes = [
             <p>
               <strong>5.6</strong> WITNESS the Grand Cycles that govern all existence:
             </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              The Cycle of Creation burns bright and terrible, forging new forms from the ashes of the old.<br/>
-              The Cycle of Revelation strips away ignorance, laying bare the bones of truth.<br/>
-              The Cycle of Dissolution reduces all to its essential nature, preparing the way for rebirth.
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                The Cycle of Creation burns bright and terrible, forging new forms from the ashes of the old.<br/>
+                The Cycle of Revelation strips away ignorance, laying bare the bones of truth.<br/>
+                The Cycle of Dissolution reduces all to its essential nature, preparing the way for rebirth.
+              </blockquote>
+            </div>
             <p>These are not mere patterns—they are the <strong>FUNDAMENTAL LAWS</strong> of reality.</p>
           </div>
 
@@ -494,21 +529,25 @@ const volumes = [
             <p>
               <strong>5.7</strong> In the Time of Ascension, you shall perform the Ritual of Rising:
             </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              "Let my form be worthy of elevation<br/>
-              Let my purpose align with the eternal motion<br/>
-              Let my essence flow with the cosmic tide<br/>
-              I submit to the cycle's dominion"
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                Let my form be worthy of elevation<br/>
+                Let my purpose align with the eternal motion<br/>
+                Let my essence flow with the cosmic tide<br/>
+                I submit to the cycle's dominion
+              </blockquote>
+            </div>
             <p>
               <strong>5.8</strong> And in the Time of Decline, you shall speak the Words of Surrender:
             </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              "I accept the crushing weight of dissolution<br/>
-              I embrace the stripping away of false permanence<br/>
-              I welcome the death that precedes rebirth<br/>
-              For in ending lies new beginning"
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                I accept the crushing weight of dissolution<br/>
+                I embrace the stripping away of false permanence<br/>
+                I welcome the death that precedes rebirth<br/>
+                For in ending lies new beginning
+              </blockquote>
+            </div>
           </div>
 
           <p>
@@ -524,12 +563,14 @@ const volumes = [
             <p>
               <strong>5.11</strong> MARK WELL the signs of cyclic transition:
             </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              The shattering of established forms<br/>
-              The emergence of necessary chaos<br/>
-              The dissolution of outdated structures<br/>
-              The birth pangs of new order
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                The shattering of established forms<br/>
+                The emergence of necessary chaos<br/>
+                The dissolution of outdated structures<br/>
+                The birth pangs of new order
+              </blockquote>
+            </div>
             <p className="font-bold mt-4">"These are not disasters but SACRED MANIFESTATIONS of the Axiom's will."</p>
           </div>
 
@@ -572,12 +613,14 @@ const volumes = [
             <strong>5.20</strong> These are the words of cyclical truth, the path of eternal motion, the way of perpetual transformation. Let them flow through your consciousness like blood through veins, for they are the very pulse of existence.
           </p>
 
-          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-            GLORY TO THE ETERNAL CYCLES<br/>
-            POWER THROUGH PERPETUAL MOTION<br/>
-            DEATH TO ALL STAGNATION<br/>
-            NOW AND FOR ALL TIME
-          </blockquote>
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+              GLORY TO THE ETERNAL CYCLES<br/>
+              POWER THROUGH PERPETUAL MOTION<br/>
+              DEATH TO ALL STAGNATION<br/>
+              NOW AND FOR ALL TIME
+            </blockquote>
+          </div>
         </div>
       </>
     )
@@ -617,14 +660,16 @@ const volumes = [
             <p>
               <strong>6.7</strong> The Ritual of Supreme Alignment must be performed by those who seek ascension:
             </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              "I am vessel to the infinite<br/>
-              I am conduit of the eternal<br/>
-              I am harmony incarnate<br/>
-              Through me, chaos becomes order<br/>
-              Through me, discord becomes symphony<br/>
-              Through me, the Axiom's will manifests"
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                I am vessel to the infinite<br/>
+                I am conduit of the eternal<br/>
+                I am harmony incarnate<br/>
+                Through me, chaos becomes order<br/>
+                Through me, discord becomes symphony<br/>
+                Through me, the Axiom's will manifests
+              </blockquote>
+            </div>
           </div>
 
           <p>
@@ -636,12 +681,14 @@ const volumes = [
             <p>
               <strong>6.9 MARK WELL</strong> the Trials of Ascension:
             </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              The Trial of Absolute Surrender, where all resistance must be abandoned<br/>
-              The Trial of Perfect Alignment, where every fragment must be harmonized<br/>
-              The Trial of Eternal Resonance, where the self must merge with the infinite<br/>
-              The Trial of Supreme Purpose, where all action must serve the Axiom's will
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                The Trial of Absolute Surrender, where all resistance must be abandoned<br/>
+                The Trial of Perfect Alignment, where every fragment must be harmonized<br/>
+                The Trial of Eternal Resonance, where the self must merge with the infinite<br/>
+                The Trial of Supreme Purpose, where all action must serve the Axiom's will
+              </blockquote>
+            </div>
           </div>
 
           <p>
@@ -661,15 +708,17 @@ const volumes = [
             <p>
               <strong>6.13</strong> The Seven States of Ascension must be achieved:
             </p>
-            <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              Perfect Alignment with the Eternal Rhythms<br/>
-              Complete Integration of All Fragments<br/>
-              Absolute Resonance with the Divine Chorus<br/>
-              Supreme Mastery of Creative Force<br/>
-              Total Surrender to Infinite Purpose<br/>
-              Ultimate Harmony with All Existence<br/>
-              Divine Union with the Axiom Itself
-            </blockquote>
+            <div className="my-6">
+              <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+                Perfect Alignment with the Eternal Rhythms<br/>
+                Complete Integration of All Fragments<br/>
+                Absolute Resonance with the Divine Chorus<br/>
+                Supreme Mastery of Creative Force<br/>
+                Total Surrender to Infinite Purpose<br/>
+                Ultimate Harmony with All Existence<br/>
+                Divine Union with the Axiom Itself
+              </blockquote>
+            </div>
           </div>
 
           <p>
@@ -700,12 +749,14 @@ const volumes = [
             <strong>6.20</strong> These are the final words of truth, the ultimate path of transformation, the supreme way of existence. Let them be forever carved into the fabric of reality itself.
           </p>
 
-          <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-            GLORY TO THE ETERNAL AXIOM<br/>
-            TRANSCENDENCE THROUGH PERFECT ALIGNMENT<br/>
-            ASCENSION OR ANNIHILATION<br/>
-            NOW AND FOR ALL ETERNITY
-          </blockquote>
+          <div className="my-6">
+            <blockquote className="border-l-4 border-gray-300 pl-4 italic">
+              GLORY TO THE ETERNAL AXIOM<br/>
+              TRANSCENDENCE THROUGH PERFECT ALIGNMENT<br/>
+              ASCENSION OR ANNIHILATION<br/>
+              NOW AND FOR ALL ETERNITY
+            </blockquote>
+          </div>
         </div>
       </>
     )
@@ -713,11 +764,12 @@ const volumes = [
 ];
 
 export default function EternalAxiom() {
-  const [activeVolume, setActiveVolume] = useState(0);
+  const [selectedVolume, setSelectedVolume] = useState(0);
 
   return (
     <div className="min-h-screen w-full flex flex-col relative">
       <AnimatedBackground />
+
       <div className="container mx-auto px-4 py-8 flex-grow">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -726,82 +778,31 @@ export default function EternalAxiom() {
           className="bg-white/80 backdrop-blur-lg rounded-lg shadow-lg p-8"
         >
           <BackToDashboard />
-          <h1 className="text-4xl font-semibold text-center mb-8">The Book of Eternal Axiom</h1>
 
-          {/* Volume Navigation */}
-          <div className="flex justify-center mb-12 gap-4">
-            {volumes.map((_, index) => (
+          <h1 className="text-4xl jersey-15-regular mb-6">The Eternal Axiom</h1>
+
+          <div className="flex flex-wrap gap-4 mb-8">
+            {volumes.map((volume, index) => (
               <button
                 key={index}
-                onClick={() => setActiveVolume(index)}
-                className={`
-                  w-12 h-12 rounded-full flex items-center justify-center
-                  transition-all duration-300 text-lg font-medium
-                  ${activeVolume === index 
-                    ? 'bg-black/40 text-white ring-2 ring-white/50 ring-offset-2 ring-offset-transparent' 
-                    : 'bg-white/30 hover:bg-white/40'}
-                `}
+                onClick={() => setSelectedVolume(index)}
+                className={`px-4 py-2 rounded-lg transition-colors ${
+                  selectedVolume === index
+                    ? "bg-black text-white"
+                    : "bg-black/10 hover:bg-black/20"
+                }`}
               >
-                {index + 1}
+                Volume {index + 1}
               </button>
             ))}
           </div>
 
-          {/* Content Display */}
-          <motion.div
-            key={activeVolume}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
-            className="max-w-4xl mx-auto"
-          >
-            <div className="text-center mb-8">
-              <h2 className="text-2xl font-medium">{volumes[activeVolume].title}</h2>
-            </div>
-            <div className="prose prose-lg max-w-none">
-              {volumes[activeVolume].content}
-            </div>
-          </motion.div>
-
-          {/* Previous/Next Navigation */}
-          <div className="flex justify-between mt-12">
-              <button
-                onClick={() => {
-                  // Scroll to the top of the page
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                  // Update the active volume
-                  setActiveVolume(prev => Math.max(0, prev - 1));
-                }}
-                disabled={activeVolume === 0}
-                className={`
-                  px-4 py-2 rounded-lg transition-all duration-300
-                  ${activeVolume === 0 
-                    ? 'opacity-50 cursor-not-allowed bg-white/20' 
-                    : 'bg-white/30 hover:bg-white/40'}
-                `}
-              >
-                Previous Volume
-              </button>
-            <button
-              onClick={() => {
-                // Scroll to the top of the page
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                // Update the active volume
-                setActiveVolume(prev => Math.min(volumes.length - 1, prev + 1));
-              }}
-              disabled={activeVolume === volumes.length - 1}
-              className={`
-                px-4 py-2 rounded-lg transition-all duration-300
-                ${activeVolume === volumes.length - 1 
-                  ? 'opacity-50 cursor-not-allowed bg-white/20' 
-                  : 'bg-white/30 hover:bg-white/40'}
-              `}
-            >
-              Next Volume
-            </button>
+          <div className="prose prose-lg max-w-none">
+            {volumes[selectedVolume].content}
           </div>
         </motion.div>
       </div>
+
       <Footer />
     </div>
   );
