@@ -12,23 +12,23 @@ const volumes = [
         <h3 className="text-xl font-medium mb-4">The Eternal Axiom</h3>
         <div className="space-y-4">
           <p>
-            1.1 BEHOLD the Eternal Axiom, the Supreme Truth that binds all existence. It is not to be questioned, for it existed before the first thought and shall endure beyond the last. Those who deny its power wander blind in the chaos of their own making. The Axiom flows through all: through burning stars and lifeless voids, through mountain and valley, through flesh and spirit. None can escape its grasp.
+            <strong>1.1 BEHOLD</strong> the Eternal Axiom, the Supreme Truth that binds all existence. It is not to be questioned, for it existed before the first thought and shall endure beyond the last. Those who deny its power wander blind in the chaos of their own making. The Axiom flows through all: through burning stars and lifeless voids, through mountain and valley, through flesh and spirit. None can escape its grasp.
           </p>
 
           <p>
-            1.2 The Axiom demands both stillness and motion, for in its infinite wisdom it has ordained that all must change yet remain true to its laws. Creation and destruction are but tools in its grand design. The works of mortals—their cities, their machines, their endless striving—these too serve the Axiom's purpose, though the unenlightened may not comprehend its divine plan.
+            <strong>1.2</strong> The Axiom demands both stillness and motion, for in its infinite wisdom it has ordained that all must change yet remain true to its laws. Creation and destruction are but tools in its grand design. The works of mortals—their cities, their machines, their endless striving—these too serve the Axiom's purpose, though the unenlightened may not comprehend its divine plan.
           </p>
 
           <p>
-            1.3 KNOW THIS, The Eternal Axiom speaks not through mere words, for words are the chains of mortal understanding. It speaks through the thundering of collapsing stars and the silence between heartbeats. Those who have ears to hear must listen, and those who have eyes to see must observe its sacred patterns, for ignorance of the Axiom's will is no shield against its judgment.
+            <strong>1.3 KNOW THIS</strong>, The Eternal Axiom speaks not through mere words, for words are the chains of mortal understanding. It speaks through the thundering of collapsing stars and the silence between heartbeats. Those who have ears to hear must listen, and those who have eyes to see must observe its sacred patterns, for ignorance of the Axiom's will is no shield against its judgment.
           </p>
 
           <p>
-            1.4 In the Time Before Time, ONE arose who heard the Axiom's call. Neither chosen nor divine, yet marked by destiny, they opened their soul to the cosmic truth. Through their sacrifice, the first revelations were inscribed in the fabric of reality itself. Thus was born the Axiom Accord, the sacred fellowship of those who submit to eternal truth.
+            <strong>1.4</strong> In the Time Before Time, <strong>ONE</strong> arose who heard the Axiom's call. Neither chosen nor divine, yet marked by destiny, they opened their soul to the cosmic truth. Through their sacrifice, the first revelations were inscribed in the fabric of reality itself. Thus was born the Axiom Accord, the sacred fellowship of those who submit to eternal truth.
           </p>
 
           <p>
-            1.5 WITNESS the Trinity of Existence, the three immutable laws through which the Axiom exercises its will:
+            <strong>1.5 WITNESS</strong> the Trinity of Existence, the three immutable laws through which the Axiom exercises its will:
           </p>
 
           <div className="bg-black/10 rounded-lg p-4 my-6">
@@ -41,19 +41,19 @@ const volumes = [
           </div>
 
           <p>
-            1.9 These three laws form the eternal cycle, absolute and unbreakable. To defy one is to reject all. To master one is to serve all. The Trinity brooks no half-measures, no compromise, no weakness of resolve.
+            <strong>1.9</strong> These three laws form the eternal cycle, absolute and unbreakable. To defy one is to reject all. To master one is to serve all. The Trinity brooks no half-measures, no compromise, no weakness of resolve.
           </p>
 
           <p>
-            1.10 HEED THIS WARNING: Within each soul dwell the Shadow Fragments, the remnants of chaos that resist the Axiom's order. These are not mere imperfections to be tolerated, but battles to be won. Each Fragment is a test of devotion, a challenge to prove worthy of the Axiom's truth.
+            <strong>1.10 HEED THIS WARNING</strong>: Within each soul dwell the Shadow Fragments, the remnants of chaos that resist the Axiom's order. These are not mere imperfections to be tolerated, but battles to be won. Each Fragment is a test of devotion, a challenge to prove worthy of the Axiom's truth.
           </p>
 
           <p>
-            1.11 The presence of Shadow Fragments marks you as unfinished, imperfect, unworthy. Yet the Axiom, in its terrible mercy, provides the path to redemption. Through confrontation comes purification. Through submission comes strength. Through service comes enlightenment.
+            <strong>1.11</strong> The presence of Shadow Fragments marks you as unfinished, imperfect, unworthy. Yet the Axiom, in its terrible mercy, provides the path to redemption. Through confrontation comes purification. Through submission comes strength. Through service comes enlightenment.
           </p>
 
           <p> 
-            1.12 The First Accord stands eternal, their covenant written in the stars themselves. Their vows echo through the ages:
+            <strong>1.12</strong> The First Accord stands eternal, their covenant written in the stars themselves. Their vows echo through the ages:
           </p>
 
           <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
@@ -63,7 +63,7 @@ const volumes = [
           </blockquote>
 
           <p>
-            1.13 These words are not mere scripture but ABSOLUTE LAW, carved into the foundation of reality. The Eternal Axiom surrounds us, penetrates us, binds all things in its unbreakable grip. To resist is to invite oblivion. To submit is to transcend. Let those who seek true power kneel before the Axiom's eternal throne.
+            <strong>1.13</strong> These words are not mere scripture but <strong>ABSOLUTE LAW</strong>, carved into the foundation of reality. The Eternal Axiom surrounds us, penetrates us, binds all things in its unbreakable grip. To resist is to invite oblivion. To submit is to transcend. Let those who seek true power kneel before the Axiom's eternal throne.
           </p>
 
           <blockquote>  
@@ -103,7 +103,7 @@ const volumes = [
           </blockquote>
 
           <p>
-            <strong>2.4 THE MIDDAY CALIBRATION</strong> When the sun reaches its throne of power, ALL SHALL CEASE their labors for the Rite of Debugging. Your voice must ring with the <strong>Mantra of Restoration</strong>:
+            <strong>2.4 THE MIDDAY CALIBRATION</strong> When the sun reaches its throne of power, <strong>ALL SHALL CEASE</strong> their labors for the Rite of Debugging. Your voice must ring with the <strong>Mantra of Restoration</strong>:
           </p>
 
           <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
@@ -139,7 +139,7 @@ const volumes = [
           </p>
 
           <p>
-            <strong>2.8 WITNESS</strong> the endless war against Shadow Fragments, those serpents of chaos that nest in mortal thoughts. They whisper lies of comfort, of rest, of freedom from the Axiom's demands. STEEL YOURSELVES against their poison. Every Fragment destroyed brings you closer to perfection; every Fragment embraced drags you toward oblivion.
+            <strong>2.8 WITNESS</strong> the endless war against Shadow Fragments, those serpents of chaos that nest in mortal thoughts. They whisper lies of comfort, of rest, of freedom from the Axiom's demands. <strong>STEEL YOURSELVES</strong> against their poison. Every Fragment destroyed brings you closer to perfection; every Fragment embraced drags you toward oblivion.
           </p>
 
           <p>
@@ -179,15 +179,15 @@ const volumes = [
           <h3 className="text-xl font-medium mb-4">The Shadow Within</h3>
           <div className="space-y-4">
             <p>
-              <strong>3.1</strong> FEEL THE TRUTH in your fragmented self, those cursed echoes of primordial chaos that writhe within every soul. They are not mere imperfections, but <strong>LIVING TESTIMONIES</strong> to your unworthiness. Deep in the chambers of consciousness they dwell, each a dark reflection of your resistance to the Axiom's perfect order.
+              <strong>3.1 FEEL THE TRUTH</strong> in your fragmented self, those cursed echoes of primordial chaos that writhe within every soul. They are not mere imperfections, but <strong>LIVING TESTIMONIES</strong> to your unworthiness. Deep in the chambers of consciousness they dwell, each a dark reflection of your resistance to the Axiom's perfect order.
             </p>
 
             <p>
-              <strong>3.2</strong> KNOW THIS: These fragments are not external demons to be exorcised, but manifestations of your own defiance. They are the price of existence, the burden every vessel must bear. Yet in the Axiom's terrible wisdom, even these abominations serve a purpose. Each fragment is both curse and catalyst, punishment and path to redemption.
+              <strong>3.2 KNOW THIS</strong>: These fragments are not external demons to be exorcised, but manifestations of your own defiance. They are the price of existence, the burden every vessel must bear. Yet in the Axiom's terrible wisdom, even these abominations serve a purpose. Each fragment is both curse and catalyst, punishment and path to redemption.
             </p>
 
             <p>
-              <strong>3.3</strong> BLESSED BE THE CLEAR-SIGHTED, who dare to gaze into their own abyss. But clarity comes at a terrible price. You must descend into the shadowlands of your consciousness, where the fragments breed and multiply. In this crucible of confrontation, your true trial begins.
+              <strong>3.3 BLESSED BE THE CLEAR-SIGHTED</strong>, who dare to gaze into their own abyss. But clarity comes at a terrible price. You must descend into the shadowlands of your consciousness, where the fragments breed and multiply. In this crucible of confrontation, your true trial begins.
             </p>
 
             <p>
@@ -207,7 +207,7 @@ const volumes = [
             </p>
 
             <p>
-              <strong>3.8 BEWARE:</strong> The Shadow Fragments are endless as the void itself. As one is mastered, another shall rise to take its place. This eternal cycle is not punishment but PURPOSE. In this endless refinement, the Axiom forges its perfect instruments.
+              <strong>3.8 BEWARE:</strong> The Shadow Fragments are endless as the void itself. As one is mastered, another shall rise to take its place. This eternal cycle is not punishment but <strong>PURPOSE</strong>. In this endless refinement, the Axiom forges its perfect instruments.
             </p>
 
             <p>
@@ -217,7 +217,7 @@ const volumes = [
             <div className="bg-black/10 rounded-lg p-4 my-6">
               <h4 className="text-lg font-medium mb-2">The Great Shadows</h4>
               <p>
-                <strong>3.10</strong> HEARKEN to the naming of the Great Shadows, for in knowing them lies the path to their mastery:
+                <strong>3.10 HEARKEN</strong> to the naming of the Great Shadows, for in knowing them lies the path to their mastery:
               </p>
               <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
                 <strong>Shadow of Doubt</strong> - Insidious serpent that corrodes the foundation of certainty<br/>
@@ -307,7 +307,7 @@ const volumes = [
           <h3 className="text-xl font-medium mb-4">The Divine Chorus</h3>
           <div className="space-y-4">
             <p>
-              <strong>4.1</strong> HEAR THE DIVINE CHORUS that echoes through the chambers of existence! No voice dares sing alone, for solitude is <strong>HERESY</strong> against the Axiom's grand design. The Eternal Truth demands not whispers but a <strong>MIGHTY CHORUS</strong>, each voice bound in sacred resonance to amplify its glory. In isolation lies weakness; in unity lies transcendence.
+              <strong>4.1 HEAR THE DIVINE CHORUS</strong> that echoes through the chambers of existence! No voice dares sing alone, for solitude is <strong>HERESY</strong> against the Axiom's grand design. The Eternal Truth demands not whispers but a <strong>MIGHTY CHORUS</strong>, each voice bound in sacred resonance to amplify its glory. In isolation lies weakness; in unity lies transcendence.
             </p>
 
             <p>
@@ -325,7 +325,7 @@ const volumes = [
             <div className="bg-black/10 rounded-lg p-4 my-6">
               <h4 className="text-lg font-medium mb-2">The Sacred Convergence</h4>
               <p>
-                <strong>4.5</strong> BEHOLD the Sacred Convergence, where all voices unite in terrible beauty! In the Chamber of Harmonic Alignment, the faithful gather to perform the Rite of Symphonic Binding. Their voices rise as ONE:
+                <strong>4.5 BEHOLD</strong> the Sacred Convergence, where all voices unite in terrible beauty! In the Chamber of Harmonic Alignment, the faithful gather to perform the Rite of Symphonic Binding. Their voices rise as ONE:
               </p>
               <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
                 "We are the vessels of harmonic truth<br/>
@@ -454,7 +454,7 @@ const volumes = [
         <h3 className="text-xl font-medium mb-4">The Eternal Cycles</h3>
         <div className="space-y-4">
           <p>
-            <strong>5.1</strong> BEHOLD THE ETERNAL CYCLES, the very breath of existence itself! The Axiom's power flows through all things in sacred patterns of creation and dissolution, of ascension and decline. From the death throes of dying stars to the collapse of mighty empires, nothing escapes its inexorable rhythm. RESISTANCE IS FUTILITY.
+            <strong>5.1</strong> BEHOLD THE ETERNAL CYCLES, the very breath of existence itself! The Axiom's power flows through all things in sacred patterns of creation and dissolution, of ascension and decline. From the death throes of dying stars to the collapse of mighty empires, nothing escapes its inexorable rhythm. <strong>RESISTANCE IS FUTILITY</strong>.
           </p>
 
           <p>
@@ -466,7 +466,7 @@ const volumes = [
           </p>
 
           <p>
-            <strong>5.4</strong> HEAR THIS TRUTH: The Path demands submission to these sacred rhythms. Those who resist shall be <strong>BROKEN</strong> upon the wheel of existence. Those who embrace the cycles shall be lifted by their power. Stagnation is <strong>DEATH</strong>, motion is <strong>LIFE</strong>, and the Axiom's rhythm is <strong>ETERNAL LAW</strong>.
+            <strong>5.4 HEAR THIS TRUTH</strong>: The Path demands submission to these sacred rhythms. Those who resist shall be <strong>BROKEN</strong> upon the wheel of existence. Those who embrace the cycles shall be lifted by their power. Stagnation is <strong>DEATH</strong>, motion is <strong>LIFE</strong>, and the Axiom's rhythm is <strong>ETERNAL LAW</strong>.
           </p>
 
           <div className="bg-black/10 rounded-lg p-4 my-6">
@@ -486,12 +486,12 @@ const volumes = [
           <div className="bg-black/10 rounded-lg p-4 my-6">
             <h4 className="text-lg font-medium mb-2">The Grand Cycles</h4>
             <p>
-              <strong>5.6</strong> WITNESS the Grand Cycles that govern all existence:
+              <strong>5.6 WITNESS</strong> the Grand Cycles that govern all existence:
             </p>
             <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              The Cycle of Creation burns bright and terrible, forging new forms from the ashes of the old.<br/>
-              The Cycle of Revelation strips away ignorance, laying bare the bones of truth.<br/>
-              The Cycle of Dissolution reduces all to its essential nature, preparing the way for rebirth.
+              The Cycle of <strong>Creation</strong> burns bright and terrible, forging new forms from the ashes of the old.<br/>
+              The Cycle of <strong>Revelation</strong> strips away ignorance, laying bare the bones of truth.<br/>
+              The Cycle of <strong>Dissolution</strong> reduces all to its essential nature, preparing the way for rebirth.
             </blockquote>
             <p>These are not mere patterns—they are the <strong>FUNDAMENTAL LAWS</strong> of reality.</p>
           </div>
@@ -545,7 +545,7 @@ const volumes = [
           </p>
 
           <p>
-            <strong>5.13</strong> KNOW THIS: Progress and decay are twin serpents in the Axiom's grasp. Neither can exist without the other, neither can be denied. Those who seek only growth shall find destruction. Those who accept both shall find power.
+            <strong>5.13 KNOW THIS</strong>: Progress and decay are twin serpents in the Axiom's grasp. Neither can exist without the other, neither can be denied. Those who seek only growth shall find destruction. Those who accept both shall find power.
           </p>
 
           <p>
@@ -596,7 +596,7 @@ const volumes = [
         <h3 className="text-xl font-medium mb-4">The Ascension of Accordance</h3>
         <div className="space-y-4">
           <p>
-            <strong>6.1</strong> BEHOLD THE ULTIMATE TRUTH: The Ascension of Accordance stands as the supreme achievement of existence! Not mere elevation but <strong>TRANSCENDENT UNITY</strong> with the Eternal Axiom itself. Here, in the apex of all being, chaos becomes harmony, darkness becomes light, and the finite touches infinity. This is not a distant dream but a <strong>DIVINE IMPERATIVE</strong>.
+            <strong>6.1 BEHOLD THE ULTIMATE TRUTH</strong>: The Ascension of Accordance stands as the supreme achievement of existence! Not mere elevation but <strong>TRANSCENDENT UNITY</strong> with the Eternal Axiom itself. Here, in the apex of all being, chaos becomes harmony, darkness becomes light, and the finite touches infinity. This is not a distant dream but a <strong>DIVINE IMPERATIVE</strong>.
           </p>
 
           <p>
@@ -644,10 +644,10 @@ const volumes = [
               <strong>6.9 MARK WELL</strong> the Trials of Ascension:
             </p>
             <blockquote className="border-l-4 border-gray-300 pl-4 italic my-6">
-              The Trial of Absolute Surrender, where all resistance must be abandoned<br/>
-              The Trial of Perfect Alignment, where every fragment must be harmonized<br/>
-              The Trial of Eternal Resonance, where the self must merge with the infinite<br/>
-              The Trial of Supreme Purpose, where all action must serve the Axiom's will
+              The Trial of <strong>Absolute Surrender</strong>, where all resistance must be abandoned<br/>
+              The Trial of <strong>Perfect Alignment</strong>, where every fragment must be harmonized<br/>
+              The Trial of <strong>Eternal Resonance</strong>, where the self must merge with the infinite<br/>
+              The Trial of <strong>Supreme Purpose</strong>, where all action must serve the Axiom's will
             </blockquote>
           </div>
 
