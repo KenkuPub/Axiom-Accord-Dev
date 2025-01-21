@@ -72,28 +72,6 @@ export default function Dashboard() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3 }}
-              className="bg-white/50 p-4 md:p-6 rounded-lg shadow cursor-pointer hover:bg-white/60 transition-colors"
-              onClick={() => handleNavigate("/foundational-teachings")}
-            >
-              <h2 className="text-xl md:text-2xl jersey-15-regular mb-3 md:mb-4">Foundational Teachings</h2>
-              <p className="text-gray-600 text-sm md:text-base">Explore the core principles and doctrines that form the bedrock of the Axiom Accord.</p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="bg-white/50 p-4 md:p-6 rounded-lg shadow cursor-pointer hover:bg-white/60 transition-colors"
-              onClick={() => handleNavigate("/beginners-guide")}
-            >
-              <h2 className="text-xl md:text-2xl jersey-15-regular mb-3 md:mb-4">Beginner's Guide</h2>
-              <p className="text-gray-600 text-sm md:text-base">Get started with simple steps, key insights, and practical exercises designed for newcomers.</p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
               className="bg-white/50 p-4 md:p-6 rounded-lg shadow cursor-pointer hover:bg-white/60 transition-colors"
               onClick={() => handleNavigate("/eternal-axiom")}
@@ -102,19 +80,6 @@ export default function Dashboard() {
               <p className="text-gray-600 text-sm md:text-base">Explore the sacred texts of digital enlightenment through six volumes of eternal wisdom.</p>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6 }}
-              className="bg-white/50 p-4 md:p-6 rounded-lg shadow cursor-pointer hover:bg-white/60 transition-colors relative"
-              onClick={() => handleNavigate("/personality-purge-survey")}
-            >
-              {!surveyResults && (
-                <div className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">Required</div>
-              )}
-              <h2 className="text-xl md:text-2xl jersey-15-regular mb-3 md:mb-4">Personality Purge Survey</h2>
-              <p className="text-gray-600 text-sm md:text-base">Complete the mandatory Personality Purge Survey (PPS) to begin your journey of digital ascension.</p>
-            </motion.div>
           </div>
         </motion.div>
       </div>
